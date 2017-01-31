@@ -1,6 +1,5 @@
 # [Data-Rescue-PDX](http://calagator.org/events/1250471401)
 https://www.facebook.com/events/1891777784386985/
-Optional workshop
 
 Volunteers! Welcome and thank you for spending your evening with us.
 
