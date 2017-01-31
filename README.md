@@ -2,16 +2,24 @@
 https://www.facebook.com/events/1891777784386985/
 Optional workshop
 
-Volunteers
+Volunteers! Welcome and thank you for spending your evening with us.
 
-DataRefuge is really committed to making citable copies with clearly documented chains of custody. 
+DataRefuge is really committed to making citable copies with clearly documented chains of custody - so let's help with that. 
 
+- Citable copies = discoverable! So your copy can be found and used by others, for instance on the Internet Archive
+- Clearly documented chains of custody = To prove that your copy is the same data as the original, so you want to reference the webpage that you found it on and data.gov metatdata ID to link back to where you found the data.
 
-
-My process has been working with Data.gov's metadata format (data.json). I have been working with them to produce a full copy of their metadata archive and a process for reporting missing data: https://www.data.gov/developers/archiving
+Take some time with this guide to [JSON Lines](https://github.com/jsonlines/guide) to familirize yourself with Data.gov's metadata format (data.json). Metadata is super important, and if all you do today is create metadata files, that is AWESOME and necessary.
 
 Google also recently did a great post about using the Data.gov metadata format for discovery of datasets: https://research.googleblog.com/2017/01/facilitating-discovery-of-public.html
 
-My current goal is to have a process to mirror all metadata onto Internet Archive who has good preservation features and work with groups building distributed data distribution and access tools.
+At this hackathon we'll be focusing on the [Climate Mirror](https://github.com/climate-mirror/how-to-help) effort.
 
-For people writing custom scrapers I want to work on ways to publish metadata for what they scraped onto Internet Archive and the DataRefuge CKAN so it can be discovered and referenced by other volunteers.
+## When you're ready to go
+
+1. Adopt a dataset from [Climate-mirror](https://github.com/climate-mirror/datasets/issues)
+2. Find out if and who has a copy of it
+3. If it does not have a metadata file created for it, create one!
+4. Check if it's on Data.gov, if not report it as a unlisted dataset
+
+Is your data set missing form Data.gov? [Max](https://github.com/maxogden) has been working with them to produce a full copy of their metadata archive and a process for [reporting missing data](https://www.data.gov/developers/archiving)
