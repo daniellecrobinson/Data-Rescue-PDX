@@ -8,7 +8,22 @@ DataRefuge is really committed to making citable copies with clearly documented 
 - Citable copies = discoverable! So your copy can be found and used by others, for instance on the Internet Archive
 - Clearly documented chains of custody = To prove that your copy is the same data as the original, so you want to reference the webpage that you found it on and data.gov metatdata ID to link back to where you found the data.
 
-Take some time with this guide to [JSON Lines](https://github.com/jsonlines/guide) to familirize yourself with Data.gov's metadata format (data.json). Metadata is super important, and if all you do today is create metadata files, that is AWESOME and necessary.
+## Background
+
+At this hackathon we'll be focusing on the [Climate Mirror](https://github.com/climate-mirror/how-to-help) effort.
+Here are the [Climate Mirror Datasets](https://github.com/climate-mirror/datasets/issues), each issue links out to a dataset
+  
+### [Data.gov Metadata](https://www.data.gov/about)
+ - "Agencies are required to publish a list of their data assets that are public, or could be made public. This list is made available as a ###data.json### file hosted at the primary domain of the agency"
+ 
+### What's [JSON](http://www.json.org/)?
+  
+ - JavaScript Object Notation
+ - data-interchange format fo text-only data 
+ - Language-independent way to organize information so that humans and machines can read it!
+
+Take some time with this guide to [JSON Lines](https://github.com/jsonlines/guide) to familirize yourself with Data.gov's metadata format (data.json). 
+Metadata is super important, and if all you do today is create metadata files, that is AWESOME and necessary.
 
 Google also recently did a great post about using the Data.gov metadata format for discovery of datasets: https://research.googleblog.com/2017/01/facilitating-discovery-of-public.html
 
