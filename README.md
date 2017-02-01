@@ -13,12 +13,12 @@ Volunteers! Welcome and thank you for spending your evening with us.
 At this hackathon we'll be focusing on the [Climate Mirror](https://github.com/climate-mirror/how-to-help) effort.
 Here are the [Climate Mirror Datasets](https://github.com/climate-mirror/datasets/issues), each issue links out to a dataset
   
-### 1.[Data.gov](https://www.data.gov/about)
+### 1. [Data.gov](https://www.data.gov/about)
 
  - "Agencies are required to publish a list of their data assets that are public, or could be made public. This list is made available as a data.json file hosted at the primary domain of the agency."
  - So, working with the JSON files, we can see what public datasets exist.
  
-### 2.Working with [JSON](http://www.json.org/)
+### 2. Working with [JSON](http://www.json.org/)
 
  - JavaScript Object Notation
  - data-interchange format fo text-only data 
@@ -35,9 +35,11 @@ Take some time with this guide to [JSON Lines](https://github.com/jsonlines/guid
 
 OK, now that you've run through that, you should feel more comfortable sorting through a JSON file for information about dataset contents, ownership, licensing, size, and other important info.
 
-### 4.Creating a JSON metadata file [NEEDS WORK]
+### 3. Creating a JSON metadata file [NEEDS WORK]
 
 Metadata is super important, and if all you do today is create metadata files, or find a few files that need metadata, that is AWESOME and necessary.
+
+Here is a sample exercise to take you through creating a metadata file.
 
 1. Step 1, find a file with missing metadata?
 2. create new metadata file in JSON format?
