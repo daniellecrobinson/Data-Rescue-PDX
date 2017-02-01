@@ -13,12 +13,12 @@ Volunteers! Welcome and thank you for spending your evening with us.
 At this hackathon we'll be focusing on the [Climate Mirror](https://github.com/climate-mirror/how-to-help) effort.
 Here are the [Climate Mirror Datasets](https://github.com/climate-mirror/datasets/issues), each issue links out to a dataset
   
-### [Data.gov](https://www.data.gov/about)
+### 1.[Data.gov](https://www.data.gov/about)
 
  - "Agencies are required to publish a list of their data assets that are public, or could be made public. This list is made available as a data.json file hosted at the primary domain of the agency."
  - So, working with the JSON files, we can see what public datasets exist.
  
-### Working with [JSON](http://www.json.org/)
+### 2.Working with [JSON](http://www.json.org/)
 
  - JavaScript Object Notation
  - data-interchange format fo text-only data 
@@ -28,17 +28,24 @@ Take some time with this guide to [JSON Lines](https://github.com/jsonlines/guid
 
 1. Download tools you'll need to play around with JSON files
 2. Work in the command line with JSON Lines Command Line Interface (CLI) Tools 
-3. If you've never worked in the terminal before - don't worry! 
+3. If you've never worked in the terminal before - don't panic! 
   - This will be fun! This is your crash course! 
   - Here's a [CLI cheatsheet](https://github.com/daniellecrobinson/terminal-mac-cheatsheet), and | is a [pipe](https://en.wikipedia.org/wiki/Pipeline_(Unix))!
   - You'll do great! Ask for help when you get stuck :)
 
-OK, now that you've run through that, now you should feel more comfortable sorting through a JSON file for .
+OK, now that you've run through that, you should feel more comfortable sorting through a JSON file for information about dataset contents, ownership, licensing, size, and other important info.
 
-### JSON metadata
+### 4.Creating a JSON metadata file [NEEDS WORK]
 
-Metadata is super important, and if all you do today is create metadata files, that is AWESOME and necessary.
+Metadata is super important, and if all you do today is create metadata files, or find a few files that need metadata, that is AWESOME and necessary.
+
+1. Step 1, find a file with missing metadata?
+2. create new metadata file in JSON format?
+3. help on the formatting [here](https://project-open-data.cio.gov/v1.1/metadata-resources/) and [here](https://project-open-data.cio.gov/v1.1/schema/dataset.json)
+3. Done?
+  
 More on Data.gov Metadata, including long lists of possible Dataset Field titles [here](https://project-open-data.cio.gov/v1.1/schema/)
+
 Google also recently did a great post about using the Data.gov metadata format for discovery of datasets: https://research.googleblog.com/2017/01/facilitating-discovery-of-public.html
 
 
