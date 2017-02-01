@@ -3,7 +3,7 @@ https://www.facebook.com/events/1891777784386985/
 
 Volunteers! Welcome and thank you for spending your evening with us.
 
-DataRefuge is really committed to making citable copies with clearly documented chains of custody - so let's help with that. 
+[DataRefuge](http://www.ppehlab.org/) is committed to making citable copies with clearly documented chains of custody - so let's help with that. 
 
 - Citable copies = discoverable! So your copy can be found and used by others, for instance on the Internet Archive
 - Clearly documented chains of custody = To prove that your copy is the same data as the original, so you want to reference the webpage that you found it on and data.gov metatdata ID to link back to where you found the data.
@@ -41,14 +41,15 @@ Metadata is super important, and if all you do today is create metadata files, t
 More on Data.gov Metadata, including long lists of possible Dataset Field titles [here](https://project-open-data.cio.gov/v1.1/schema/)
 Google also recently did a great post about using the Data.gov metadata format for discovery of datasets: https://research.googleblog.com/2017/01/facilitating-discovery-of-public.html
 
-At this hackathon we'll be focusing on the [Climate Mirror](https://github.com/climate-mirror/how-to-help) effort.
+
 
 ## When you're ready to go
 
 1. Adopt a dataset from [Climate-mirror](https://github.com/climate-mirror/datasets/issues)
-2. Find out if and who has a copy of it
-3. If it does not have a metadata file created for it, create one!
-4. Check if it's on Data.gov, if not report it as a unlisted dataset
+2. Find out who, if anyone, has a copy of it. [more details here]
+3. Look for a metadata file [MORE DETAILS HERE].
+4. If it does not have a metadata file created for it, create one!
+5. Check if your dataset and/or its associted metadata are on Data.gov, if not report it as a unlisted dataset
 
 Is your data set missing form Data.gov? [Max](https://github.com/maxogden) has been working with them to produce a full copy of their metadata archive and a process for [reporting missing data](https://www.data.gov/developers/archiving)
 
