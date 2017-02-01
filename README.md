@@ -18,7 +18,7 @@ Here are the [Climate Mirror Datasets](https://github.com/climate-mirror/dataset
  - "Agencies are required to publish a list of their data assets that are public, or could be made public. This list is made available as a data.json file hosted at the primary domain of the agency."
  - So, working with the JSON files, we can see what public datasets exist.
  
-### Working with [JSON](http://www.json.org/)?
+### Working with [JSON](http://www.json.org/)
 
  - JavaScript Object Notation
  - data-interchange format fo text-only data 
@@ -31,11 +31,14 @@ Take some time with this guide to [JSON Lines](https://github.com/jsonlines/guid
 3. If you've never worked in the terminal before - don't worry! 
   - This will be fun! This is your crash course! 
   - Here's a [CLI cheatsheet](https://github.com/daniellecrobinson/terminal-mac-cheatsheet), and | is a [pipe](https://en.wikipedia.org/wiki/Pipeline_(Unix))!
-  - You'll do great!
+  - You'll do great! Ask for help when you get stuck :)
 
+OK, now that you've run through that, now you should feel more comfortable sorting through a JSON file for .
+
+### JSON metadata
 
 Metadata is super important, and if all you do today is create metadata files, that is AWESOME and necessary.
-
+More on Data.gov Metadata, including long lists of possible Dataset Field titles [here](https://project-open-data.cio.gov/v1.1/schema/)
 Google also recently did a great post about using the Data.gov metadata format for discovery of datasets: https://research.googleblog.com/2017/01/facilitating-discovery-of-public.html
 
 At this hackathon we'll be focusing on the [Climate Mirror](https://github.com/climate-mirror/how-to-help) effort.
@@ -48,3 +51,9 @@ At this hackathon we'll be focusing on the [Climate Mirror](https://github.com/c
 4. Check if it's on Data.gov, if not report it as a unlisted dataset
 
 Is your data set missing form Data.gov? [Max](https://github.com/maxogden) has been working with them to produce a full copy of their metadata archive and a process for [reporting missing data](https://www.data.gov/developers/archiving)
+
+
+$ head data.json | jsonmap "{name: this.name, organization: this.organization.name, notes: this.notes.slice(0,60)}" 
+$ cat data.json | jsonmap "{name: this.name, organization: this.organization.name, notes: this.notes.slice(0,60)}"
+
+
