@@ -26,7 +26,8 @@ Here are the [Climate Mirror Datasets](https://github.com/climate-mirror/dataset
 
 Take some time with this guide to [JSON Lines](https://github.com/jsonlines/guide) to familiarize yourself with Data.gov's metadata format (data.json). This guide will help you
 1. Download tools you'll need to play around with JSON files
-2. Work in the command line
+2. Work in the command line with JSON Lines Command Line Interface (CLI) Tools 
+3. If you've never worked in the terminal before - don't worry! This will be fun! This is your crash course! Here's a [CLI cheatsheet](https://github.com/daniellecrobinson/terminal-mac-cheatsheet), and | is a [pipe](https://en.wikipedia.org/wiki/Pipeline_(Unix))
 
 
 Metadata is super important, and if all you do today is create metadata files, that is AWESOME and necessary.
