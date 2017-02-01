@@ -13,16 +13,22 @@ DataRefuge is really committed to making citable copies with clearly documented 
 At this hackathon we'll be focusing on the [Climate Mirror](https://github.com/climate-mirror/how-to-help) effort.
 Here are the [Climate Mirror Datasets](https://github.com/climate-mirror/datasets/issues), each issue links out to a dataset
   
-### [Data.gov Metadata](https://www.data.gov/about)
- - "Agencies are required to publish a list of their data assets that are public, or could be made public. This list is made available as a ###data.json### file hosted at the primary domain of the agency"
+### [Data.gov](https://www.data.gov/about)
+
+ - "Agencies are required to publish a list of their data assets that are public, or could be made public. This list is made available as a data.json file hosted at the primary domain of the agency."
+ - So, working with the JSON files, we can see what public datasets exist.
  
-### What's [JSON](http://www.json.org/)?
-  
+### Working with [JSON](http://www.json.org/)?
+
  - JavaScript Object Notation
  - data-interchange format fo text-only data 
  - Language-independent way to organize information so that humans and machines can read it!
 
-Take some time with this guide to [JSON Lines](https://github.com/jsonlines/guide) to familirize yourself with Data.gov's metadata format (data.json). 
+Take some time with this guide to [JSON Lines](https://github.com/jsonlines/guide) to familiarize yourself with Data.gov's metadata format (data.json). This guide will help you
+1. Download tools you'll need to play around with JSON files
+2. Work in the command line
+
+
 Metadata is super important, and if all you do today is create metadata files, that is AWESOME and necessary.
 
 Google also recently did a great post about using the Data.gov metadata format for discovery of datasets: https://research.googleblog.com/2017/01/facilitating-discovery-of-public.html
