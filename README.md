@@ -3,8 +3,17 @@
 Volunteers! Welcome and thank you for spending your evening with us.
 
 ## Background
-
-[DataRefuge](https://www.datarefuge.org/) is committed to making citable copies with clearly documented chains of custody - so let's help with that. 
+## Major players
+- Data.gov
+- [DataRefuge](https://www.datarefuge.org/) is committed to making citable copies with clearly documented chains of custody - so let's help with that. 
+- Internet Archive
+- UC system
+ - California Digital Library
+ - UC Riverside
+ - UC Davis
+ 
+ - Wider Community Involvent
+   
 
 ### The issue with archiving data isn't storage space, it's metadata and curation
 - Metadata is information about a data set
