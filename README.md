@@ -20,9 +20,9 @@ Here are the [Climate Mirror Datasets](https://github.com/climate-mirror/dataset
  
 ### 2. Working with [JSON](http://www.json.org/)
 
+ - Language-independent way to organize information so that humans and machines can read it!
  - JavaScript Object Notation
  - data-interchange format fo text-only data 
- - Language-independent way to organize information so that humans and machines can read it!
 
 Take some time with this guide to [JSON Lines](https://github.com/jsonlines/guide) to familiarize yourself with Data.gov's metadata format (data.json). This guide will help you:
 
@@ -37,14 +37,26 @@ OK, now that you've run through that, you should feel more comfortable sorting t
 
 ### 3. Creating a JSON metadata file [NEEDS WORK]
 
-Metadata is super important, and if all you do today is create metadata files, or find a few files that need metadata, that is AWESOME and necessary.
+Metadata is super important -- it essentially makes data discovery and resuse possible -- and if all you do today is create metadata files, or find a few files that need metadata, that is AWESOME and necessary!
 
 Here is a sample exercise to take you through creating a metadata file.
 
 1. Step 1, find a file with missing metadata?
+  check that the domain exisits on Data.gov
+  - Example: https://github.com/climate-mirror/datasets/issues/298
+  - Here's the readme: https://www1.ncdc.noaa.gov/pub/data/annualreports/readme.txt
+  - Let's pick one of the anual reports! https://www1.ncdc.noaa.gov/pub/data/
+  - What are these? https://www1.ncdc.noaa.gov/pub/data/annualreports/
+  - It's a bunch of these! https://www1.ncdc.noaa.gov/pub/data/annualreports/2013-annual.pdf  
+  
+  google URL - does anythign else point here?
+  Does anything link to here?
+  
 2. create new metadata file in JSON format?
+  
 3. help on the formatting [here](https://project-open-data.cio.gov/v1.1/metadata-resources/) and [here](https://project-open-data.cio.gov/v1.1/schema/dataset.json)
-3. Done?
+4. Done?
+5. Machine readable intititional ID
   
 More on Data.gov Metadata, including long lists of possible Dataset Field titles [here](https://project-open-data.cio.gov/v1.1/schema/)
 
