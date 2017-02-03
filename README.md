@@ -4,17 +4,16 @@ Volunteers! Welcome and thank you for spending your evening with us.
 
 ## Background
 ## Major players
-- Data.gov
-- [DataRefuge](https://www.datarefuge.org/) is committed to making citable copies with clearly documented chains of custody - so let's help with that. 
-- Internet Archive
-- UC system
- - California Digital Library
- - UC Riverside
- - UC Davis
- 
- - Wider Community Involvent
+- Data.gov - basically an repository of the consistent metadata - "it's just the phone book, not the actual houses."
+- [DataRefuge](https://www.datarefuge.org/)(UPENN) - committed to making citable copies with clearly documented chains of custody, so let's help with that. 
+- Internet archive & archive team - basically a hard drive
+- UC system - a bunch of simultaneous projects on storing and archiving data
+ - California Digital Library - another harddrive, but with metadata expertise
+ - UC Riverside - Azimuth data rescue project
+ - UC Davis - Climate-mirror data rescue project
+- Wider Community Involvent
+ - You're now part of a multi-city, multi-institutal effort to catalog and archive data
    
-
 ### The issue with archiving data isn't storage space, it's metadata and curation
 - Metadata is information about a data set
   -Who created the data set, when it was created, where it lives, what it contains, etc.
@@ -57,22 +56,33 @@ Metadata is super important -- it essentially makes data discovery and resuse po
 
 Here is a sample exercise to take you through creating a metadata file.
 
-1. Step 1, find a file with missing metadata?
+Example: find a file with missing metadata?
   check that the domain exisits on Data.gov
   - Example: https://github.com/climate-mirror/datasets/issues/298
   - Here's the readme: https://www1.ncdc.noaa.gov/pub/data/annualreports/readme.txt
   - Let's pick one of the anual reports! https://www1.ncdc.noaa.gov/pub/data/
   - What are these? https://www1.ncdc.noaa.gov/pub/data/annualreports/
   - It's a bunch of these! https://www1.ncdc.noaa.gov/pub/data/annualreports/2013-annual.pdf  
+
+1. Pick a dataset!
+2. Check whether your dataset exisits in other places - search for the URL that was reported to Climate-mirror.
+ - Data.gov
+ - IA.org
+ - GitHub
+ - Google
+ Does it exist in other locations? Does it have metadata?
+  
+  
+3. What's the status of the metadata?
+ If you find metadata, grab it and paste in to a text file. 
+ If not we are going to create it i a text file using a JSON template
+  Create new metadata file in JSON format, help on the formatting [here](https://project-open-data.cio.gov/v1.1/metadata-resources/) and [here](https://project-open-data.cio.gov/v1.1/schema/dataset.json)
+
+4. Create issue on leave comment on issue with link to data or metadata
   
   google URL - does anythign else point here?
   Does anything link to here?
-  
-2. create new metadata file in JSON format?
-  
-3. help on the formatting [here](https://project-open-data.cio.gov/v1.1/metadata-resources/) and [here](https://project-open-data.cio.gov/v1.1/schema/dataset.json)
-4. Done?
-5. Machine readable intititional ID
+
   
 More on Data.gov Metadata, including long lists of possible Dataset Field titles [here](https://project-open-data.cio.gov/v1.1/schema/)
 
