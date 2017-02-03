@@ -66,7 +66,7 @@ Google also recently did a great post about using the Data.gov metadata format f
 
 ## When you're ready to go
 
-1. Adopt a dataset from [Climate-mirror](https://github.com/climate-mirror/datasets/issues)
+1. Adopt a dataset from [Climate-mirror](https://github.com/climate-mirror/datasets/issues) or [Azimuth data backup](https://bitbucket.org/azimuth-backup/azimuth-inventory/issues)
 2. Find out who, if anyone, has a copy of it. [more details here]
 3. Look for a metadata file [MORE DETAILS HERE].
 4. If it does not have a metadata file created for it, create one!
