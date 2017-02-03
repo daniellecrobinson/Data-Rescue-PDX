@@ -3,14 +3,14 @@
 Volunteers! Welcome and thank you for spending your evening with us.
 
 ## Background
-## Major players
+### Major players
 - Data.gov - basically an repository of the consistent metadata - "it's just the phone book, not the actual houses."
 - [DataRefuge](https://www.datarefuge.org/)(UPENN) - committed to making citable copies with clearly documented chains of custody, so let's help with that. 
-- Internet archive & archive team - basically a hard drive
+- Internet archive & archive team - basically a hard drive, doing wayback machine for all nominated websites BUT it's just a crawl, it will miss a lot of data because the bots are dumb
 - UC system - a bunch of simultaneous projects on storing and archiving data
  - California Digital Library - another harddrive, but with metadata expertise
  - UC Riverside - Azimuth data rescue project
- - UC Davis - Climate-mirror data rescue project
+ - UC Davis - **Climate-mirror** data rescue project
 - Wider Community Involvent
  - You're now part of a multi-city, multi-institutal effort to catalog and archive data
    
@@ -20,24 +20,23 @@ Volunteers! Welcome and thank you for spending your evening with us.
 - Citable copies = discoverable! So your copy can be found and used by others, for instance on the Internet Archive
 - Clearly documented chains of custody = To prove that your copy is the same data as the original, so you want to reference the webpage that you found it on and data.gov metatdata ID to link back to where you found the data.
 
+Metadata is super important -- it essentially makes data discovery and resuse possible -- and if all you do today is create metadata files, or find a few files that need metadata, that is AWESOME and necessary!
+
 We have a job for you!
-[DataRescue Harvester](http://www.ppehlab.org/datarescue-harvester)
-[DataRescue Seeder](https://www.ppehlab.org/datarescue-seeders)
-[DataRescue Checker, Bagger, Describer](http://www.ppehlab.org/datarescue-describersplus)
+
+- Trainees - learn about JSON metadata
+- Data Detectives - adopt a dataset, learn about it, make a JSON metadata file, add it to our list
+- Super Hackers - automate downloading and build tools!
 
 At this hackathon we'll be focusing on the [Climate Mirror](https://github.com/climate-mirror/how-to-help) effort.
-Here are the [Climate Mirror Datasets](https://github.com/climate-mirror/datasets/issues), each issue links out to a dataset
+Here are the [Climate Mirror Datasets](https://github.com/climate-mirror/datasets/issues), each issue links out to a dataset.
   
-### 1. [Data.gov](https://www.data.gov/about)
+### 1. Trainees: Working with [JSON](http://www.json.org/) to make [Data.gov](https://www.data.gov/about)-friendly metadata
 
- - "Agencies are required to publish a list of their data assets that are public, or could be made public. This list is made available as a data.json file hosted at the primary domain of the agency."
- - So, working with the JSON files, we can see what public datasets exist.
- 
-### 2. Working with [JSON](http://www.json.org/)
-
- - Language-independent way to organize information so that humans and machines can read it!
- - JavaScript Object Notation
- - data-interchange format fo text-only data 
+- JSON (JavaScript Object Notation) is: Language-independent way to organize information so that humans and machines can read it!
+- "Agencies are required to publish a list of their data assets that are public, or could be made public. This list is made available as a data.json file hosted at the primary domain of the agency."
+- So, working with the JSON files, we can see what public datasets exist.
+- If a dataset exists without a JSON 
 
 Take some time with this guide to [JSON Lines](https://github.com/jsonlines/guide) to familiarize yourself with Data.gov's metadata format (data.json). This guide will help you:
 
@@ -50,9 +49,7 @@ Take some time with this guide to [JSON Lines](https://github.com/jsonlines/guid
 
 OK, now that you've run through that, you should feel more comfortable sorting through a JSON file for information about dataset contents, ownership, licensing, size, and other important info.
 
-### 3. Creating a JSON metadata file [NEEDS WORK]
-
-Metadata is super important -- it essentially makes data discovery and resuse possible -- and if all you do today is create metadata files, or find a few files that need metadata, that is AWESOME and necessary!
+### 3. Data Detectives: Discovering your data and creating a JSON metadata file 
 
 Here is a sample exercise to take you through creating a metadata file.
 
@@ -104,4 +101,6 @@ Is your data set missing form Data.gov? [Max](https://github.com/maxogden) has b
 $ head data.json | jsonmap "{name: this.name, organization: this.organization.name, notes: this.notes.slice(0,60)}" 
 $ cat data.json | jsonmap "{name: this.name, organization: this.organization.name, notes: this.notes.slice(0,60)}"
 
-
+[DataRescue Harvester](http://www.ppehlab.org/datarescue-harvester)
+[DataRescue Seeder](https://www.ppehlab.org/datarescue-seeders)
+[DataRescue Checker, Bagger, Describer](http://www.ppehlab.org/datarescue-describersplus)
