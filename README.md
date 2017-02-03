@@ -24,7 +24,7 @@ Metadata is super important -- it essentially makes data discovery and resuse po
 
 We have a job for you!
 
-- Trainees - learn about JSON metadata
+- Trainees - learn about JSON metadata, then join the Detectives
 - Data Detectives - adopt a dataset, learn about it, make a JSON metadata file, add it to our list
 - Super Hackers - automate downloading and build tools!
 
@@ -49,7 +49,7 @@ Take some time with this guide to [JSON Lines](https://github.com/jsonlines/guid
 
 OK, now that you've run through that, you should feel more comfortable sorting through a JSON file for information about dataset contents, ownership, licensing, size, and other important info.
 
-### 3. Data Detectives: Discovering your data and creating a JSON metadata file 
+### 2. Data Detectives: Discovering data and creating JSON metadata files
 
 Here is a sample exercise to take you through creating a metadata file.
 
@@ -66,21 +66,14 @@ Example: find a file with missing metadata?
  - Data.gov
  - IA.org
  - GitHub
- - Google
+ - Google - does anythign else point or link to your data?
  Does it exist in other locations? Does it have metadata?
-  
-  
 3. What's the status of the metadata?
  If you find metadata, grab it and paste in to a text file. 
  If not we are going to create it i a text file using a JSON template
   Create new metadata file in JSON format, help on the formatting [here](https://project-open-data.cio.gov/v1.1/metadata-resources/) and [here](https://project-open-data.cio.gov/v1.1/schema/dataset.json)
-
-4. Create issue on leave comment on issue with link to data or metadata
-  
-  google URL - does anythign else point here?
-  Does anything link to here?
-
-  
+4. [Create issue](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues) on leave comment on issue with link to data or metadata
+    
 More on Data.gov Metadata, including long lists of possible Dataset Field titles [here](https://project-open-data.cio.gov/v1.1/schema/)
 
 Google also recently did a great post about using the Data.gov metadata format for discovery of datasets: https://research.googleblog.com/2017/01/facilitating-discovery-of-public.html
