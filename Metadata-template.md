@@ -1,27 +1,19 @@
+Climate Mirror dataset title: e.g. NOAA ESRL GMD Radiation
+Climate Mirror issue: e.g. https://github.com/climate-mirror/datasets/issues/311
+Link to datafile: e.g. 
 
+Agency: e.g. National Oceanic & Atmospheric Administration (NOAA)
+Agency Division: e.g. Oceanic and Atmospheric Research (OAR)
+Agency Subdivision: e.g. Earth System Research Laboratory (ESRL)
+Agency Sub-Subdivision: e.g.Global Monitoring Division (GMD)
+Bulk Download Link: e.g. ftp://aftp.cmdl.noaa.gov/data/radiation/
+Size Estimate: e.g. 196G
+Data Type: e.g. "G-Rad is involved in observational and theoretical research of the Earth's surface and atmospheric radiation budgets. The group specializes in the investigation of climatically significant variations in long-term radiation and meteorological measurements made at diverse globally-remote sites and continental US sites (SURFRAD)." - GMD Radiation website
 
-    Agency: National Oceanic & Atmospheric Administration (NOAA)
+Other URLS:
 
-    Agency Division: Oceanic and Atmospheric Research (OAR)
-
-    Agency Subdivision: Earth System Research Laboratory (ESRL)
-
-    Agency Sub-Subdivision: Global Monitoring Division (GMD)
-
-    Bulk Download Link: ftp://aftp.cmdl.noaa.gov/data/radiation/
-
-    Size Estimate: 196G
-
-    Data Type: "G-Rad is involved in observational and theoretical research of the Earth's surface and atmospheric radiation budgets. The group specializes in the investigation of climatically significant variations in long-term radiation and meteorological measurements made at diverse globally-remote sites and continental US sites (SURFRAD)." - GMD Radiation website
-
-    Related Issues: This issue is a split of issue #275
-
-
-
-
-
-JSON: 
-
+JSON:
+(example)
 ```
 {
   "license_title": "Creative Commons CCZero",
