@@ -18,7 +18,7 @@ Other URLS:
 
 JSON:
 (example)
-If you don't know a value, leave it blank
+If you don't know a value, leave it blank. Check you JSON for errors with [JSONlint](http://jsonlint.com/)
 ```
 {
   "name": "va-national-formulary",
