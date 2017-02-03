@@ -1,10 +1,14 @@
 # [Data-Rescue-PDX](http://calagator.org/events/1250471401)
-https://www.facebook.com/events/1891777784386985/
 
 Volunteers! Welcome and thank you for spending your evening with us.
 
-[DataRefuge](http://www.ppehlab.org/) is committed to making citable copies with clearly documented chains of custody - so let's help with that. 
+## Background
 
+[DataRefuge](https://www.datarefuge.org/) is committed to making citable copies with clearly documented chains of custody - so let's help with that. 
+
+### The issue with archiving data isn't storage space, it's metadata and curation
+- Metadata is information about a data set
+  -Who created the data set, when it was created, where it lives, what it contains, etc.
 - Citable copies = discoverable! So your copy can be found and used by others, for instance on the Internet Archive
 - Clearly documented chains of custody = To prove that your copy is the same data as the original, so you want to reference the webpage that you found it on and data.gov metatdata ID to link back to where you found the data.
 
@@ -12,9 +16,6 @@ We have a job for you!
 [DataRescue Harvester](http://www.ppehlab.org/datarescue-harvester)
 [DataRescue Seeder](https://www.ppehlab.org/datarescue-seeders)
 [DataRescue Checker, Bagger, Describer](http://www.ppehlab.org/datarescue-describersplus)
-
-
-## Background
 
 At this hackathon we'll be focusing on the [Climate Mirror](https://github.com/climate-mirror/how-to-help) effort.
 Here are the [Climate Mirror Datasets](https://github.com/climate-mirror/datasets/issues), each issue links out to a dataset
