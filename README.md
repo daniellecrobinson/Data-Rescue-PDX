@@ -8,6 +8,12 @@ Volunteers! Welcome and thank you for spending your evening with us.
 - Citable copies = discoverable! So your copy can be found and used by others, for instance on the Internet Archive
 - Clearly documented chains of custody = To prove that your copy is the same data as the original, so you want to reference the webpage that you found it on and data.gov metatdata ID to link back to where you found the data.
 
+We have a job for you!
+[DataRescue Harvester](http://www.ppehlab.org/datarescue-harvester)
+[DataRescue Seeder](https://www.ppehlab.org/datarescue-seeders)
+[DataRescue Checker, Bagger, Describer](http://www.ppehlab.org/datarescue-describersplus)
+
+
 ## Background
 
 At this hackathon we'll be focusing on the [Climate Mirror](https://github.com/climate-mirror/how-to-help) effort.
@@ -66,7 +72,7 @@ Google also recently did a great post about using the Data.gov metadata format f
 
 ## When you're ready to go
 
-1. Adopt a dataset from [Climate-mirror](https://github.com/climate-mirror/datasets/issues) or [Azimuth data backup](https://bitbucket.org/azimuth-backup/azimuth-inventory/issues)
+1. Adopt a dataset from [Climate-mirror](https://github.com/climate-mirror/datasets/issues)
 2. Find out who, if anyone, has a copy of it. [more details here]
 3. Look for a metadata file [MORE DETAILS HERE].
 4. If it does not have a metadata file created for it, create one!
