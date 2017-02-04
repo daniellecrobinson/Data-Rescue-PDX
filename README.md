@@ -65,24 +65,26 @@ Example: find a file with missing metadata?
 Here is a sample exercise to take you through creating a metadata file.
 
 1. Adopt a dataset from [Climate-mirror](https://github.com/climate-mirror/datasets/issues) and check it out and pick a URL to work on.
- - Criteria: 
+
+ **Criteria:** 
   - Is the URL to a server with a bunch of datasets or one specific dataset?
   - Is it clear what scientific purpose this dataset serves?
   - What organization funded it? Federally funded research?
   - Is raw data at the URL or is it a landing page where you need to click through? 
-    > We want the metadata to be for downloadable raw data, not for a project website or landing page.
+     > We want the metadata to be for downloadable raw data, not for a project website or landing page.
 
- - **Example:** https://github.com/climate-mirror/datasets/issues/298
+    **Example:** https://github.com/climate-mirror/datasets/issues/298
   - Here's the readme: https://www1.ncdc.noaa.gov/pub/data/annualreports/readme.txt
   - Let's pick one of the annual reports! https://www1.ncdc.noaa.gov/pub/data/
   - What are these? https://www1.ncdc.noaa.gov/pub/data/annualreports/
   - It's a bunch of these! https://www1.ncdc.noaa.gov/pub/data/annualreports/2013-annual.pdf 
  
 2. Check whether your dataset exisits in other places - search for the URL that was reported to Climate-mirror.
-  - **Example:** 
-   - Google things! make sure it's in double "" so it's an exact match
-    - "www1.ncdc.noaa.gov" annual reports (e.g. "*server*" + keywords) - we found other annual reports! But not ours
-    - "www1.ncdc.noaa.gov/pub/data/annualreports/" - we found only a UK Met office PDF citing our PDFs!
+
+  **Example:** 
+   Google things! make sure it's in double "" so it's an exact match
+   - "www1.ncdc.noaa.gov" annual reports (e.g. "*server*" + keywords) - we found other annual reports! But not ours
+   - "www1.ncdc.noaa.gov/pub/data/annualreports/" - we found only a UK Met office PDF citing our PDFs!
   
 3. What's the status of the metadata?
  If you find metadata, grab it and paste in to a text file. 
