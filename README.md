@@ -1,6 +1,6 @@
 # [Data-Rescue-PDX](http://calagator.org/events/1250471401)
 
-Volunteers! Welcome and thank you for spending your evening with us.
+Volunteers! Welcome and thank you for spending your time with us.
 
 This event is a volunteer effort to contribute to data back up efforts. By attending you agree to our Code of Conduct http://confcodeofconduct.com/ which we will enforce.
 
@@ -8,19 +8,17 @@ To chat after tonight, join the Science Hack PDX Slack: https://sciencepdxslacki
 
 ### Citizen Science Metadata Curation Workshop!
 
-Much of the scientific data that benefits us all is scattered across the internet on hard to find servers and often lacks meaningful documentation about what the data is, who created it, and how it should be discovered and used by other researchers in the future.
+There is curently no centralized storage and access system for scientific research datasets. Scientific data is scattered across the internet, where it may be deposited on hard to find servers without meaningful documentation to explain what the data is, who created it, the context in which it was created, and how it should be discovered and used by other researchers.
 
-**Warning** You will be very confused for the first hour or so, because this is confusing. The data is all over the place, there are millions of files with no rhyme or reason. But fear not, everyone goes through this.
-
-Throughout the DataRefuge community, many parallel efforts are working on ensuring datasets that have nominated and discovered are being safely backed up. However, many of the datasets in the queue to be backed up do not have machine readable, standard metadata which helps the archiving process.
+Throughout the DataRefuge community, many parallel efforts are working to ensure that important datasets are discovered, nominated for archiving, and safely backed up. However, many of the datasets in the archiving queue do not have machine the readable, standard metadata critical to the archiving process.
 
 That's where you come in! We need your help to adopt one of these datasets, hopefully before they disappear from the web. Funding for science is uncertain, and datasets and the websites that accompany them could disappear at any time.
 
-Your mission, if you choose to accept it (which you did implicitly by showing up and eating the pizza), is to create metadata and documentation for these orphaned datasets so that their existence is recorded into the online public record using standard, open metadata.
+Your mission, if you choose to accept it (which you did implicitly by showing up and eating the pizza), is to create metadata and documentation for the scientific datasets that are being backed up by other DataRefuge efforts so that their existence and provenance is recorded into the online public record with standard, open metadata.
 
-Your efforts will help these datasets to not drift into obscurity, living in a hard drive in someones closet, never to be found, cited, or trusted again.
+Your efforts will prevent these datasets from drifting into obscurity. A dataset without metadata can not be found, cited, or trusted by the scientific community. 
 
-Before we continue, turn to your left (or right) and introduce yourself to the recruit Data Detective sitting next to you. When you get stuck, or have a question, they are your first point of contact (and you are theirs).
+**Warning** You will be very confused for the first hour or so, because this is confusing. The data is all over the place, there are millions of files with no rhyme or reason. But fear not, everyone goes through this. We are all in this together! Before we continue, turn to your left (or right) and introduce yourself to the recruit Data Detective sitting next to you. When you get stuck, or have a question, they are your first point of contact (and you are theirs).
 
 #### What is metadata? 
 
