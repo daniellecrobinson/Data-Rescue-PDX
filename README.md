@@ -2,6 +2,8 @@
 
 Volunteers! Welcome and thank you for spending your evening with us.
 
+To chat after tonight, join the Science Hack PDX Slack: https://sciencepdxslackin.herokuapp.com/
+
 ## Background
 ### Major players
 - **[Data.gov](https://www.data.gov/)** - basically an repository of the consistent metadata - "it's just the phone book, not the actual houses."
