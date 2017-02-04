@@ -58,6 +58,8 @@ OK, now that you've run through that, you should feel more comfortable sorting t
 
 ### 2. Data Detectives: Discovering data and creating JSON metadata files
 
+[Claim a climate mirror issue in this spreadsheet](https://docs.google.com/spreadsheets/d/1Ojgw9-VFdwO2Qxrp9a6W6X8FFS4047uhvCf8Lw3Q6gU/edit?usp=sharing)
+
 Here is a sample exercise to take you through creating a metadata file.
 
 Example: find a file with missing metadata?
