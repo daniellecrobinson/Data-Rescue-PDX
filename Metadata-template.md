@@ -8,17 +8,21 @@
 
 **Agency Division:** e.g. Oceanic and Atmospheric Research (OAR)
 
-Agency Subdivision: e.g. Earth System Research Laboratory (ESRL)
-Agency Sub-Subdivision: e.g.Global Monitoring Division (GMD)
-Bulk Download Link: e.g. ftp://aftp.cmdl.noaa.gov/data/radiation/
-Size Estimate: e.g. 196G
-Data Type: e.g. "G-Rad is involved in observational and theoretical research of the Earth's surface and atmospheric radiation budgets. The group specializes in the investigation of climatically significant variations in long-term radiation and meteorological measurements made at diverse globally-remote sites and continental US sites (SURFRAD)." - GMD Radiation website
+**Agency Subdivision:** e.g. Earth System Research Laboratory (ESRL)
 
-Other URLS:
+**Agency Sub-Subdivision:** e.g.Global Monitoring Division (GMD)
 
-JSON:
+**Bulk Download Link:** e.g. ftp://aftp.cmdl.noaa.gov/data/radiation/
+
+**Size Estimate:** e.g. 196G
+
+**Data Type:** e.g. "G-Rad is involved in observational and theoretical research of the Earth's surface and atmospheric radiation budgets. The group specializes in the investigation of climatically significant variations in long-term radiation and meteorological measurements made at diverse globally-remote sites and continental US sites (SURFRAD)." - GMD Radiation website
+
+**Other URLS:**
+
+**JSON:**
 (example)
-If you don't know a value, leave it blank. Check you JSON for errors with [JSONlint](http://jsonlint.com/)
+If you don't know a value, leave it blank. Check your JSON for errors with [JSONlint](http://jsonlint.com/)
 ```
 {
   "name": "va-national-formulary",
