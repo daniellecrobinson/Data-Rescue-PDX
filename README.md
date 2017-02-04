@@ -4,14 +4,15 @@ Volunteers! Welcome and thank you for spending your evening with us.
 
 ## Background
 ### Major players
-- Data.gov - basically an repository of the consistent metadata - "it's just the phone book, not the actual houses."
-- [DataRefuge](https://www.datarefuge.org/)(UPENN) - committed to making citable copies with clearly documented chains of custody, so let's help with that. 
-- Internet archive & archive team - basically a hard drive, doing wayback machine for all nominated websites BUT it's just a crawl, it will miss a lot of data because the bots are dumb
-- UC system - a bunch of simultaneous projects on storing and archiving data
- - California Digital Library - another harddrive, but with metadata expertise
- - UC Riverside - Azimuth data rescue project
- - UC Davis - **Climate-mirror** data rescue project
-- Wider Community Involvent
+- **[Data.gov](https://www.data.gov/)** - basically an repository of the consistent metadata - "it's just the phone book, not the actual houses."
+- [**DataRefuge](https://www.datarefuge.org/)(UPENN)** - committed to making citable copies with clearly documented chains of custody, so let's help with that. 
+- **[Internet Archive](https://archive.org/index.php)** & **[Archive Team](http://archiveteam.org/index.php?title=Main_Page)** - basically a hard drive, doing wayback machine for all nominated websites BUT it's just a crawl, it will miss a lot of data because the bots are dumb
+- **UC system** - a bunch of simultaneous projects on storing and archiving data
+ - **California Digital Library** - another harddrive, but with metadata expertise
+ - **UC Riverside** - Azimuth data rescue project
+ - **UC Davis** - **[Climate-mirror](http://climatemirror.org/)** data rescue project
+ 
+### Wider Community Involvent
  - You're now part of a multi-city, multi-institutal effort to catalog and archive data
    
 ### The issue with archiving data isn't storage space, it's metadata and curation
@@ -43,7 +44,6 @@ Here are the [Climate Mirror Datasets](https://github.com/climate-mirror/dataset
 - JSON (JavaScript Object Notation) is: Language-independent way to organize information so that humans and machines can read it!
 - "Agencies are required to publish a list of their data assets that are public, or could be made public. This list is made available as a data.json file hosted at the primary domain of the agency."
 - So, working with the JSON files, we can see what public datasets exist.
-- If a dataset exists without a JSON 
 
 Take some time with this guide to [JSON Lines](https://github.com/jsonlines/guide) to familiarize yourself with Data.gov's metadata format (data.json). This guide will help you:
 
@@ -81,14 +81,14 @@ Here is a sample exercise to take you through creating a metadata file.
 2. Check whether your dataset exisits in other places - search for the URL that was reported to Climate-mirror.
   - **Example:** 
    - Google things! make sure it's in double "" so it's an exact match
-    - "www1.ncdc.noaa.gov" annual reports - e.g. "server" + keywords - we found other annual reports! But not ours
+    - "www1.ncdc.noaa.gov" annual reports (e.g. "*server*" + keywords) - we found other annual reports! But not ours
     - "www1.ncdc.noaa.gov/pub/data/annualreports/" - we found only a UK Met office PDF citing our PDFs!
   
 3. What's the status of the metadata?
  If you find metadata, grab it and paste in to a text file. 
- If not we are going to create metadata for your dataset with a [JSON template](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/example.json)
+ If not you are going to create metadata in a text editor for your dataset with a [JSON template](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/example.json)
  
-4. [Create issue](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues) on leave comment on issue with link to data or metadata
+4. [Create issue](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues) and leave comment on an issue with link to data or metadata, and/or add JSON metadata you created.
 
 **Extra Credit** 
 More on metadata file in JSON formats, [more on metadata](https://project-open-data.cio.gov/v1.1/metadata-resources/) and [Schema](https://project-open-data.cio.gov/v1.1/schema/dataset.json)
@@ -104,8 +104,8 @@ Is your data set missing form Data.gov? [Max](https://github.com/maxogden) has b
 [DataRescue Checker, Bagger, Describer](http://www.ppehlab.org/datarescue-describersplus)
 
  Other places to look for your dataset
- - Data.gov
- - IA.org
- - GitHub
+ - [Data.gov](https://www.data.gov/)
+ - [Internet Archive](https://archive.org/index.php)
+ - [GitHub](https://github.com/)
 
  
