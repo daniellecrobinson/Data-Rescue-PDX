@@ -76,7 +76,7 @@ Here is a sample exercise to take you through creating a metadata file.
   - Is it clear what scientific purpose this dataset serves?
   - What organization funded it? Federally funded research?
   - Is raw data at the URL or is it a landing page where you need to click through? 
-    > We want the metadata to be for raw data
+    > We want the metadata to be for downloadable raw data, not for a project website or landing page.
 
  - **Example:** https://github.com/climate-mirror/datasets/issues/298
   - Here's the readme: https://www1.ncdc.noaa.gov/pub/data/annualreports/readme.txt
@@ -85,12 +85,6 @@ Here is a sample exercise to take you through creating a metadata file.
   - It's a bunch of these! https://www1.ncdc.noaa.gov/pub/data/annualreports/2013-annual.pdf 
  
 2. Check whether your dataset exisits in other places - search for the URL that was reported to Climate-mirror.
- - Data.gov
- - IA.org
- - GitHub
- - Google - does anythign else point or link to your data?
- Does it exist in other locations? Does it have metadata?
- 
   - **Example:** 
    - Google things! make sure it's in double "" so it's an exact match
     - "www1.ncdc.noaa.gov" annual reports - e.g. "server" + keywords - we found other annual reports! But not ours
@@ -98,10 +92,11 @@ Here is a sample exercise to take you through creating a metadata file.
   
 3. What's the status of the metadata?
  If you find metadata, grab it and paste in to a text file. 
- If not we are going to create it i a text file using a JSON template
-  Create new metadata file in JSON format, help on the formatting [here](https://project-open-data.cio.gov/v1.1/metadata-resources/) and [here](https://project-open-data.cio.gov/v1.1/schema/dataset.json)
+ If not we are going to create metadata for your dataset with a JSON template
+ 
 4. [Create issue](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues) on leave comment on issue with link to data or metadata
 
+ Create new metadata file in JSON format, help on the formatting [here](https://project-open-data.cio.gov/v1.1/metadata-resources/) and [here](https://project-open-data.cio.gov/v1.1/schema/dataset.json)
     
 More on Data.gov Metadata, including long lists of possible Dataset Field titles [here](https://project-open-data.cio.gov/v1.1/schema/)
 
@@ -121,3 +116,10 @@ $ cat data.json | jsonmap "{name: this.name, organization: this.organization.nam
 [DataRescue Harvester](http://www.ppehlab.org/datarescue-harvester)
 [DataRescue Seeder](https://www.ppehlab.org/datarescue-seeders)
 [DataRescue Checker, Bagger, Describer](http://www.ppehlab.org/datarescue-describersplus)
+
+ - Data.gov
+ - IA.org
+ - GitHub
+ - Google - does anythign else point or link to your data?
+ Does it exist in other locations? Does it have metadata?
+ 
