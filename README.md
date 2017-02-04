@@ -62,12 +62,6 @@ Here is a sample exercise to take you through creating a metadata file.
 
 Example: find a file with missing metadata?
 
- 
- 
-
-  - Let's make a JSON file that includes all the information, including URLs to all the annual reports.
-  - Here's the JSON file I made!
-  
 Here is a sample exercise to take you through creating a metadata file.
 
 1. Adopt a dataset from [Climate-mirror](https://github.com/climate-mirror/datasets/issues) and check it out and pick a URL to work on.
@@ -92,11 +86,12 @@ Here is a sample exercise to take you through creating a metadata file.
   
 3. What's the status of the metadata?
  If you find metadata, grab it and paste in to a text file. 
- If not we are going to create metadata for your dataset with a JSON template
+ If not we are going to create metadata for your dataset with a [JSON template](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/example.json)
  
 4. [Create issue](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues) on leave comment on issue with link to data or metadata
 
- Create new metadata file in JSON format, help on the formatting [here](https://project-open-data.cio.gov/v1.1/metadata-resources/) and [here](https://project-open-data.cio.gov/v1.1/schema/dataset.json)
+**Extra Credit** 
+More on metadata file in JSON formats, [more on metadata](https://project-open-data.cio.gov/v1.1/metadata-resources/) and [Schema](https://project-open-data.cio.gov/v1.1/schema/dataset.json)
     
 More on Data.gov Metadata, including long lists of possible Dataset Field titles [here](https://project-open-data.cio.gov/v1.1/schema/)
 
@@ -104,22 +99,13 @@ Google also recently did a great post about using the Data.gov metadata format f
 
 Is your data set missing form Data.gov? [Max](https://github.com/maxogden) has been working with them to produce a full copy of their metadata archive and a process for [reporting missing data](https://www.data.gov/developers/archiving)
 
-
-## When you're ready to go
-
-
-
-
-$ head data.json | jsonmap "{name: this.name, organization: this.organization.name, notes: this.notes.slice(0,60)}" 
-$ cat data.json | jsonmap "{name: this.name, organization: this.organization.name, notes: this.notes.slice(0,60)}"
-
 [DataRescue Harvester](http://www.ppehlab.org/datarescue-harvester)
 [DataRescue Seeder](https://www.ppehlab.org/datarescue-seeders)
 [DataRescue Checker, Bagger, Describer](http://www.ppehlab.org/datarescue-describersplus)
 
+ Other places to look for your dataset
  - Data.gov
  - IA.org
  - GitHub
- - Google - does anythign else point or link to your data?
- Does it exist in other locations? Does it have metadata?
+
  
