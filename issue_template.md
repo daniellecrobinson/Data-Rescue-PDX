@@ -50,8 +50,6 @@ If you don't know a value, leave it blank. Check your JSON for errors with [JSON
   "resources": [
     {
       "url": "http://www.pbm.va.gov/PBM/nationalformulary/VA_National_Formulary_October_2016.xls",
-      "describedByType": "application/xls",
-      "id": "1d42f998-f69a-49d3-bb24-9ed2b08d246e",
       "describedBy": "http://www.pbm.va.gov/nationalformulary.asp",
       "hash": "",
       "description": "VA_National_Formulary_October_2016.xls",
