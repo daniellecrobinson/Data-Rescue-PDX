@@ -59,48 +59,37 @@ Here is a sample exercise to take you through the workflow
 
  You might find after a few minutes that your dataset is incredibly confusing and hard to understand. This is normal. Here are some questions to ask during your research phase:
 
-2. Is the URL to a server with a bunch of datasets or one specific dataset?
-
+2. Is the URL to a server with a bunch of datasets or one specific dataset?  
 **Example** Our example issue linked to this server: https://www1.ncdc.noaa.gov/pub/data/. There seem to be dozens of datasets in many different folders. The folders seem to be about different scientific research topics. We've decided to pick the `annualreports` folder https://www1.ncdc.noaa.gov/pub/data/annualreports/ and ignore the rest of the folders on this server for now.
 
 If you find a server hosting different scientific datasets in different folders, just start by picking one of them at random. Don't try to classify the entire server, let's just start small, other volunteers in the future will follow your trail and continue on the rest.
 
-3. Is it clear what scientific purpose this dataset serves?
-
+3. Is it clear what scientific purpose this dataset serves?  
 **Example** We opened one of the reports https://www1.ncdc.noaa.gov/pub/data/annualreports/2013-annual.pdf and it looks like this folder has a decades worth of NOAA NCDC Accomplishment Reports. Probably worth saving!
 
 If you can't find out the purpose by clicking on the data, you should search the web for links to these files on Google to see how other people have used this data. See the [Google-Fu](#google-fu) section below.
 
-4. What organization funded it? Federally funded research?
-
+4. What organization funded it? Federally funded research?  
 Sometimes this is in the URL of the server, or you might find it through googling different acronyms.
 
 **Example** Our dataset is clearly from NOAA NCDC, which we learned in the PDFs as well as the server URL.
 
-5. Is raw data at the URL or is it a landing page where you need to click through? 
-
-*Raw data* is things like .CSV, .ZIP, .PDF or weird esoteric scientific data forms, usually displayed in a folder structure, and prompts you to Save As a download on your computer when you click on it. Raw data is sometimes hard to find.
-
+5. Is raw data at the URL or is it a landing page where you need to click through?   
+*Raw data* is things like .CSV, .ZIP, .PDF or weird esoteric scientific data forms, usually displayed in a folder structure, and prompts you to Save As a download on your computer when you click on it. Raw data is sometimes hard to find.  
 A *landing page* is a HTML website that usually describes the research project and sometimes links to the raw data. If you find a landing page, try to find out where all the links to the raw data on the landing page(s) are.
 
-**Example** We didn't have a landing page, just a link to the raw data. By searching Google for "www1.ncdc.noaa.gov/pub/data/annualreports/" we didn't find any landing page for these annual reports.
-
+**Example** We didn't have a landing page, just a link to the raw data. By searching Google for "www1.ncdc.noaa.gov/pub/data/annualreports/" we didn't find any landing page for these annual reports.  
 Since we're focusing on creating dataset metadata, we want to primarily find and describe the downloadable raw data, not only the project website or landing page (though the websites are useful for learning some about the dataset such as which agency created it etc.).
  
-6. Check whether your dataset exists in other places - search for the URL that was reported to Climate-mirror.
-
-Google-Fu comes in handy here! Someone might have already created metadata for this dataset. If the exact dataset you're working with is listed on Data.gov for example there will be a metadata JSON file already.
-
+6. Check whether your dataset exists in other places - search for the URL that was reported to Climate-mirror.  
+Google-Fu comes in handy here! Someone might have already created metadata for this dataset. If the exact dataset you're working with is listed on Data.gov for example there will be a metadata JSON file already.  
 **Example** By searching Google for "www1.ncdc.noaa.gov/pub/data/annualreports/" we found out that the only other website on the internet that has linked to these reports is the UK Meterological Office. We did not find our dataset in any data repositories with metadata.
 
-7. What's the status of the metadata?
-
-- If you find metadata, you should inspect it! If it's JSON you can copy and paste in to [JSONLint](http://jsonlint.com/). This will format the file so you can read it. Then you can copy it into a local text editor to work with it some more. If you found JSON metadata, you might still be able to improve it. 
-
-- If you are reasonably sure that the metadata you've found is describing the dataset you've adopted -- and nobody has linked to this metadata yet on the Climate Mirror issue -- leave a comment with a link to the metadata so others can benefit from your detective work! 
+7. What's the status of the metadata?  
+If you find metadata, you should inspect it! If it's JSON you can copy and paste in to [JSONLint](http://jsonlint.com/). This will format the file so you can read it. Then you can copy it into a local text editor to work with it some more. If you found JSON metadata, you might still be able to improve it.   
+If you are reasonably sure that the metadata you've found is describing the dataset you've adopted -- and nobody has linked to this metadata yet on the Climate Mirror issue -- leave a comment with a link to the metadata so others can benefit from your detective work! 
  
-8. Editing or creating JSON metadata
-
+8. Editing or creating JSON metadata  
 - *If you found metadata in another form*, for example XML or even a README with a block of text, you can convert it to the JSON format.
 - Take a look at this [JSON template](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/example.json). 
  - JSON organizes information about the data, the organization, and resources contained in the dataset. 
