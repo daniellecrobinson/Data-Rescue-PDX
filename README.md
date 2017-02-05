@@ -54,9 +54,8 @@ Here is the workflow you will be following:
 
 Here is a sample exercise to take you through the workflow
 
-1. We need to adopt a dataset from [Climate-mirror](https://github.com/climate-mirror/datasets/issues). Visit the issues list and find one that nobody else has adopted yet.
-
- **Example:** We're going to adopt this dataset: https://github.com/climate-mirror/datasets/issues/298. We've updated the Google Spreadsheet and are ready to dive in.
+1. We need to adopt a dataset from [Climate-mirror](https://github.com/climate-mirror/datasets/issues). Visit the issues list and find one that nobody else has adopted yet.  
+**Example:** We're going to adopt this dataset: https://github.com/climate-mirror/datasets/issues/298. We've updated the Google Spreadsheet and are ready to dive in.
 
  You might find after a few minutes that your dataset is incredibly confusing and hard to understand. This is normal. Here are some questions to ask during your research phase:
 
