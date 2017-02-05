@@ -67,33 +67,34 @@ If you find a server hosting different scientific datasets in different folders,
 If you can't find out the purpose by clicking on the data, you should search the web for links to these files on Google to see how other people have used this data. See the [Google-Fu](#google-fu) section below.
 
 4. What organization funded it? Federally funded research?  
-- Sometimes this is in the URL of the server, or you might find it through googling different acronyms.  
-- **Example:** Our dataset is clearly from NOAA NCDC, which we learned in the PDFs as well as the server URL.
+Sometimes this is in the URL of the server, or you might find it through googling different acronyms.  
+**Example:** Our dataset is clearly from NOAA NCDC, which we learned in the PDFs as well as the server URL.
 
 5. Is raw data at the URL or is it a landing page where you need to click through?   
-- *Raw data* is things like .CSV, .ZIP, .PDF or weird esoteric scientific data forms, usually displayed in a folder structure, and prompts you to Save As a download on your computer when you click on it. Raw data is sometimes hard to find.  
-- A *landing page* is a HTML website that usually describes the research project and sometimes links to the raw data. If you find a landing page, try to find out where all the links to the raw data on the landing page(s) are.  
-- **Example:** We didn't have a landing page, just a link to the raw data. By searching Google for "www1.ncdc.noaa.gov/pub/data/annualreports/" we didn't find any landing page for these annual reports.  
-- Since we're focusing on creating dataset metadata, we want to primarily find and describe the downloadable raw data, not only the project website or landing page (though the websites are useful for learning some about the dataset such as which agency created it etc.).
+*Raw data* is things like .CSV, .ZIP, .PDF or weird esoteric scientific data forms, usually displayed in a folder structure, and prompts you to Save As a download on your computer when you click on it. Raw data is sometimes hard to find.  
+A *landing page* is a HTML website that usually describes the research project and sometimes links to the raw data. If you find a landing page, try to find out where all the links to the raw data on the landing page(s) are.  
+**Example:** We didn't have a landing page, just a link to the raw data. By searching Google for "www1.ncdc.noaa.gov/pub/data/annualreports/" we didn't find any landing page for these annual reports.  
+Since we're focusing on creating dataset metadata, we want to primarily find and describe the downloadable raw data, not only the project website or landing page (though the websites are useful for learning some about the dataset such as which agency created it etc.).
  
 6. Check whether your dataset exists in other places - search for the URL that was reported to Climate-mirror.  
-- Google-Fu comes in handy here! Someone might have already created metadata for this dataset. If the exact dataset you're working with is listed on Data.gov for example there will be a metadata JSON file already.  
-- **Example:** By searching Google for "www1.ncdc.noaa.gov/pub/data/annualreports/" we found out that the only other website on the internet that has linked to these reports is the UK Meterological Office. We did not find our dataset in any data repositories with metadata.
+*Google-Fu* (see below) comes in handy here! Someone might have already created metadata for this dataset. If the exact dataset you're working with is listed on Data.gov for example there will be a metadata JSON file already.  
+**Example:** By searching Google for "www1.ncdc.noaa.gov/pub/data/annualreports/" we found out that the only other website on the internet that has linked to these reports is the UK Meterological Office. We did not find our dataset in any data repositories with metadata.
 
 7. What's the status of the metadata?  
-- If you find metadata, you should inspect it! If it's JSON you can copy and paste in to [JSONLint](http://jsonlint.com/). This will format the file so you can read it. Then you can copy it into a local text editor to work with it some more. If you found JSON metadata, you might still be able to improve it.   
-- If you are reasonably sure that the metadata you've found is describing the dataset you've adopted -- and nobody has linked to this metadata yet on the Climate Mirror issue -- leave a comment with a link to the metadata so others can benefit from your detective work! 
+If you find metadata, you should inspect it! If it's JSON you can copy and paste in to [JSONLint](http://jsonlint.com/). This will format the file so you can read it. Then you can copy it into a local text editor to work with it some more. If you found JSON metadata, you might still be able to improve it.   
+If you are reasonably sure that the metadata you've found is describing the dataset you've adopted -- and nobody has linked to this metadata yet on the Climate Mirror issue -- leave a comment with a link to the metadata so others can benefit from your detective work! 
  
 8. Editing or creating JSON metadata  
-- *If you found metadata in another form*, for example XML or even a README with a block of text, you can convert it to the JSON format.
-- Take a look at this [JSON template](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/example.json). 
- - JSON organizes information about the data, the organization, and resources contained in the dataset. 
- - The example contains one a dataset with one resource, but multiple resources can be added when appropriate, see more examples in Max Ogden's [100 JSON files from Data.gov](https://github.com/jsonlines/guide/blob/master/datagov100.json)
+*If you found metadata in another form*, for example XML or even a README with a block of text, you can convert it to the JSON format.
+Take a look at this [JSON template](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/example.json). 
+
+- JSON organizes information about the data, the organization, and resources contained in the dataset. 
+- The example contains one a dataset with one resource, but multiple resources can be added when appropriate, see more examples in Max Ogden's [100 JSON files from Data.gov](https://github.com/jsonlines/guide/blob/master/datagov100.json)
  - More on metadata file in JSON formats, [more on metadata](https://project-open-data.cio.gov/v1.1/metadata-resources/) and [Schema](https://project-open-data.cio.gov/v1.1/schema/dataset.json)
 - *If you didn't find any metadata*, you are going to create metadata in a text editor for your dataset using the [JSON template](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/example.json) as a guide.
-- Notes on JSON:
+- **Notes on JSON**:
  - It's fussy!
- - Mind all the . } and ]
+ - Mind placement of all the . } and ]
  - Check your file in [JSONLint](http://jsonlint.com/) to verify that you have no syntax errors when you're done!
 
 9. Post your metadata to the issue tracker
