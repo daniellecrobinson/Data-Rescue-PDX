@@ -4,7 +4,7 @@ Volunteers! Welcome and thank you for spending your time with us.
 
 This event is a volunteer effort to contribute to data back up efforts. By attending you agree to our Code of Conduct http://confcodeofconduct.com/ which we will enforce.
 
-To chat after tonight, join the Science Hack PDX Slack: https://sciencepdxslackin.herokuapp.com/
+To chat after this event, join the Science Hack PDX Slack: https://sciencepdxslackin.herokuapp.com/
 
 ### Citizen Science Metadata Curation Workshop!
 
