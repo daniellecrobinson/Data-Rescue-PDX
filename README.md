@@ -18,6 +18,25 @@ Your mission, if you choose to accept it (which you did implicitly by showing up
 
 Your efforts will prevent these datasets from drifting into obscurity. A dataset without metadata can not be found, cited, or trusted by the scientific community. 
 
+## Principles
+
+- Any open data set requires a **chain of custody** so it can be used for research in the future.
+- Use Data Rescue Events to **build local networks** of librarians and technologists working together to set up a sustainable effort.
+- **Metadata must be considered upfront**, before any archiving takes place. By creating **high quality metadata** we will enabling high quality archiving.
+- Collaboration should take place on **open platforms that allow anyone to contribute**.
+- Embody **open source and open science values** and focus on lowering barriers to contribute.
+- Librarians will ultimately be in control of the process, and set the standard for metadata quality as **they are expert data and metadata curators**.
+- Encourage **lots of copies** of data housed in lots of institutions
+
+## Goals
+
+- **Minimize maintenance bottleneck** for organizers, e.g. libraries should be able to move forward without being blocked by infrastructure.
+- Enable many groups to produce **high quality metadata** in parallel.
+- Meaningfully **engage large numbers of volunteers** at events.
+- Encourage **local long term community building**, overlapping libraries and Data Refuge groups
+- **Empower librarians to assume curatorial roles supported by DataRefuge community**.
+- Libraries can host what data they can, and coordinate with others to **ensure good coverage**
+
 **Warning** You will be very confused for the first hour or so, because this is confusing. The data is all over the place, there are millions of files with no rhyme or reason. But fear not, everyone goes through this. We are all in this together! Before we continue, turn to your left (or right) and introduce yourself to the recruit Data Detective sitting next to you. When you get stuck, or have a question, they are your first point of contact (and you are theirs).
 
 #### What is metadata? 
