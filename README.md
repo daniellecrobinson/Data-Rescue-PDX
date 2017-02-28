@@ -2,7 +2,7 @@
 
 Volunteers! Welcome and thank you for spending your time with us.
 
-This event is a volunteer effort to contribute to data back up efforts. By attending you agree to our Code of Conduct http://confcodeofconduct.com/ which we will enforce.
+This event is a volunteer effort to contribute to data back up efforts. By attending you agree to our [Code of Conduct](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/CODE_OF_CONDUCT.md) which we will enforce.
 
 To chat after this event, join the Science Hack PDX Slack: https://sciencepdxslackin.herokuapp.com/
 
@@ -14,7 +14,7 @@ Throughout the DataRefuge community, many parallel efforts are working to ensure
 
 That's where you come in! We need your help to adopt one of these datasets, hopefully before they disappear from the web. Funding for science is uncertain, and datasets and the websites that accompany them could disappear at any time.
 
-Your mission, if you choose to accept it (which you did implicitly by showing up and eating the pizza), is to create metadata and documentation for the scientific datasets that are being backed up by other DataRefuge efforts so that their existence and provenance is recorded into the online public record with standard, open metadata.
+Your mission, if you choose to accept it (which you did implicitly by showing up and eating the snacks), is to create metadata and documentation for the scientific datasets that are being backed up by other DataRefuge efforts so that their existence and provenance is recorded into the online public record with standard, open metadata.
 
 Your efforts will prevent these datasets from drifting into obscurity. A dataset without metadata can not be found, cited, or trusted by the scientific community. 
 
@@ -39,50 +39,52 @@ For example, a metadata file should address these questions:
 
 Metadata is super important -- it essentially makes data discovery and resuse possible -- and if all you do today is create metadata files, find metadata and match it to files that are being downloaded, or find a few files that need metadata, that is AWESOME and necessary!
 
-### 2. Data Detectives: Discovering data and creating JSON metadata files
+### Data Detectives: Discovering data and creating JSON metadata files
 
 We have a job for you!
 
 Here is the workflow you will be following:
 
-1. Adopt a dataset from [Climate Mirror](https://github.com/climate-mirror/datasets/issues)
-2. Claim your issue/dataset [in this spreadsheet](https://docs.google.com/spreadsheets/d/1Ojgw9-VFdwO2Qxrp9a6W6X8FFS4047uhvCf8Lw3Q6gU/edit?usp=sharing)
-3. Research your dataset, discover or create metadata for it using a local text file
-4. Finally, [create an issue in this repository](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues) and leave comment on an issue with link to data or metadata, and/or add JSON metadata you created.
+1. **Adopt** a dataset from the "Done" bin at [Archivers.Space](https://www.archivers.space/urls?phase=done). 
+2. **Claim** your issue/dataset [in this spreadsheet](https://docs.google.com/spreadsheets/d/1Ojgw9-VFdwO2Qxrp9a6W6X8FFS4047uhvCf8Lw3Q6gU/edit#gid=1105874853), .
+3. **Research** your dataset, discover or create standard JSON formatted metadata for your dataset using a local text file.
+4. **Document** your dataset by [creating an issue in this repository](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues) and using our issue template to add the JSON metadata you found or created.
 
 ### Example
 
 Here is a sample exercise to take you through the workflow
 
-1. We need to adopt a dataset from [Climate-mirror](https://github.com/climate-mirror/datasets/issues). Visit the issues list and find one that nobody else has adopted yet.  
-**Example:** We're going to adopt this dataset: https://github.com/climate-mirror/datasets/issues/298. We've updated the Google Spreadsheet and are ready to dive in.  
+1. Adopt a dataset from the "Done" bin at [Archivers.Space](https://www.archivers.space/urls?phase=done). If all datasets in "Done" are claimed, move on to "Bag".search the google spreadsheet for your UUID and URL before claiming your dataset Visit the issues list and find one that nobody else has adopted yet.  
+**Example:** We're going to adopt this dataset: https://www.archivers.space/urls/D82A9773-81AF-4AF2-BF01-52CA2CF3BA22. We've updated the Google Spreadsheet and are ready to dive in.  
 You might find after a few minutes that your dataset is incredibly confusing and hard to understand. This is normal. Here are some questions to ask during your research phase:
 
 2. Is the URL to a server with a bunch of datasets or one specific dataset?  
-**Example:** Our example issue linked to this server: https://www1.ncdc.noaa.gov/pub/data/. There seem to be dozens of datasets in many different folders. The folders seem to be about different scientific research topics. We've decided to pick the `annualreports` folder https://www1.ncdc.noaa.gov/pub/data/annualreports/ and ignore the rest of the folders on this server for now.  
-If you find a server hosting different scientific datasets in different folders, just start by picking one of them at random. Don't try to classify the entire server, let's just start small, other volunteers in the future will follow your trail and continue on the rest.
+**Example:** Our example issue linked to this site: http://www.nrel.gov/gis/data_solar.html. There seem to be dozens of datasets on many topics. The folders seem to be about different scientific research topics. 
+If you find a server hosting different scientific datasets in different folders or different links, that's fine. A high level JSON metadata file describing the page is useful, you don't need to list 3000 resources. Do what you can. Currently this page contains.
 
 3. Is it clear what scientific purpose this dataset serves?  
-**Example:** We opened one of the reports https://www1.ncdc.noaa.gov/pub/data/annualreports/2013-annual.pdf and it looks like this folder has a decades worth of NOAA NCDC Accomplishment Reports. Probably worth saving!  
+**Example:** From Archivers.Space - "These data provides monthly average and annual average daily total solar resource averaged over surface cells of 0.1 degrees in both latitude and longitude, or about 10 km in size. This data was developed using the State University of New York/Albany satellite radiation model. This model was developed by Dr. Richard Perez and collaborators at the National Renewable Energy Laboratory and other universities for the U.S. Department of Energy."  Probably worth saving!  
 If you can't find out the purpose by clicking on the data, you should search the web for links to these files on Google to see how other people have used this data. See the [Google-Fu](#google-fu) section below.
 
 4. What organization funded it? Federally funded research?  
 Sometimes this is in the URL of the server, or you might find it through googling different acronyms.  
-**Example:** Our dataset is clearly from NOAA NCDC, which we learned in the PDFs as well as the server URL.
+**Example:** Our dataset is clearly from National Renewable Energy Laboratory (NREL), which we learned in the URL.
 
 5. Is raw data at the URL or is it a landing page where you need to click through?   
 *Raw data* is things like .CSV, .ZIP, .PDF or weird esoteric scientific data forms, usually displayed in a folder structure, and prompts you to Save As a download on your computer when you click on it. Raw data is sometimes hard to find.  
 A *landing page* is a HTML website that usually describes the research project and sometimes links to the raw data. If you find a landing page, try to find out where all the links to the raw data on the landing page(s) are.  
-**Example:** We didn't have a landing page, just a link to the raw data. By searching Google for "www1.ncdc.noaa.gov/pub/data/annualreports/" we didn't find any landing page for these annual reports.  
+**Example:** This is a landing page that links out to multiple datasets.  
 Since we're focusing on creating dataset metadata, we want to primarily find and describe the downloadable raw data, not only the project website or landing page (though the websites are useful for learning some about the dataset such as which agency created it etc.).
  
-6. Check whether your dataset exists in other places - search for the URL that was reported to Climate-mirror.  
+6. Check whether your dataset exists in other places - search for the URL.  
 *Google-Fu* (see below) comes in handy here! Someone might have already created metadata for this dataset. If the exact dataset you're working with is listed on Data.gov for example there will be a metadata JSON file already.  
-**Example:** By searching Google for "www1.ncdc.noaa.gov/pub/data/annualreports/" we found out that the only other website on the internet that has linked to these reports is the UK Meterological Office. We did not find our dataset in any data repositories with metadata.
+**Example:** By searching Google for "http://www.nrel.gov/gis/data/GIS_Data_Technology_Specific/United_States/Solar" we found out that this URL is really the only place on the internet that links to these datasets. We can check the URLs of the raw data files that link out from this site, and we did not find our dataset in any data repositories with metadata.
+**This means that if this webpage disappears, these datasets will be super hard to find** 
 
 7. What's the status of the metadata?  
 If you find metadata, you should inspect it! If it's JSON you can copy and paste in to [JSONLint](http://jsonlint.com/). This will format the file so you can read it. Then you can copy it into a local text editor to work with it some more. If you found JSON metadata, you might still be able to improve it.   
-If you are reasonably sure that the metadata you've found is describing the dataset you've adopted -- and nobody has linked to this metadata yet on the Climate Mirror issue -- leave a comment with a link to the metadata so others can benefit from your detective work! 
+I'm going to try to make a bot that checks your GitHub Issues tomorrow, so watch out for the bot!
+If you are reasonably sure that the metadata you've found is describing the dataset you've adopted -- and nobody has linked to this metadata yet -- leave a comment with a link to the metadata so others can benefit from your detective work! 
  
 8. Editing or creating JSON metadata  
 *If you found metadata in another form*, for example XML or even a README with a block of text, you can convert it to the JSON format.
