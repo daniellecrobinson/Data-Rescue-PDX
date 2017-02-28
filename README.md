@@ -46,9 +46,11 @@ We have a job for you!
 Here is the workflow you will be following:
 
 1. **Adopt** a dataset from the "Done" bin at [Archivers.Space](https://www.archivers.space/urls?phase=done). 
-2. **Claim** your issue/dataset [in this spreadsheet](https://docs.google.com/spreadsheets/d/1Ojgw9-VFdwO2Qxrp9a6W6X8FFS4047uhvCf8Lw3Q6gU/edit#gid=1105874853), .
+2. **Claim** your issue/dataset [in this spreadsheet](https://docs.google.com/spreadsheets/d/1Ojgw9-VFdwO2Qxrp9a6W6X8FFS4047uhvCf8Lw3Q6gU/edit#gid=1105874853).
 3. **Research** your dataset, discover or create standard JSON formatted metadata for your dataset using a local text file.
 4. **Document** your dataset by [creating an issue in this repository](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues) and using our issue template to add the JSON metadata you found or created.
+5. **Verify** metadata from two other contributors. 
+6. **Repeat!**
 
 ### Example
 
@@ -78,16 +80,17 @@ Since we're focusing on creating dataset metadata, we want to primarily find and
  
 6. Check whether your dataset exists in other places - search for the URL.  
 *Google-Fu* (see below) comes in handy here! Someone might have already created metadata for this dataset. If the exact dataset you're working with is listed on Data.gov for example there will be a metadata JSON file already.  
-**Example:** By searching Google for "http://www.nrel.gov/gis/data/GIS_Data_Technology_Specific/United_States/Solar" we found out that this URL is really the only place on the internet that links to these datasets. We can check the URLs of the raw data files that link out from this site, and we did not find our dataset in any data repositories with metadata.
-**This means that if this webpage disappears, these datasets will be super hard to find** 
+**Example:** By searching Google for "http://www.nrel.gov/gis/data/GIS_Data_Technology_Specific/United_States/Solar" we found out that this URL is really the only place on the internet that links to these datasets. We can check the URLs of the raw data files that link out from this site, and we did not find our dataset in any data repositories (with/without metadata). 
+**This means that if this webpage disappears, these datasets will be super hard to find** Though, this dataset has been crawled by the Internet Archive, so it's going to be OK!
 
 7. What's the status of the metadata?  
 If you find metadata, you should inspect it! If it's JSON you can copy and paste in to [JSONLint](http://jsonlint.com/). This will format the file so you can read it. Then you can copy it into a local text editor to work with it some more. If you found JSON metadata, you might still be able to improve it.   
 I'm going to try to make a bot that checks your GitHub Issues tomorrow, so watch out for the bot!
 If you are reasonably sure that the metadata you've found is describing the dataset you've adopted -- and nobody has linked to this metadata yet -- leave a comment with a link to the metadata so others can benefit from your detective work! 
+**Example:** Our example is a landing page with multiple links to download data. Files have XML metadata, which is good but this dataset needs a JSON file that describes its ownership, contents, **and other details.**
  
 8. Editing or creating JSON metadata  
-*If you found metadata in another form*, for example XML or even a README with a block of text, you can convert it to the JSON format.
+*If you found metadata in another form*, for example XML or even a README with a block of text, you can convert it to the JSON format using a converter or creating a file by hand in a text editor.
 Take a look at this [JSON template](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/example.json). 
 
 - JSON organizes information about the data, the organization, and resources contained in the dataset. 
@@ -98,10 +101,15 @@ Take a look at this [JSON template](https://github.com/daniellecrobinson/Data-Re
  - It's fussy!
  - Mind placement of all the . } and ]
  - Check your file in [JSONLint](http://jsonlint.com/) to verify that you have no syntax errors when you're done!
+**Here is the JSON metadata for this file: TODO**
 
-9. Post your metadata to the issue tracker
+9. **Document** your dataset by [creating an issue in this repository](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues) and using our issue template to add the JSON metadata you found or created. Post your metadata to the issue tracker
 
-- TODO walk through posting the issue
+10. **Verify** metadata from two other contributors. Open an issue, check the metadata by asking the following questions:
+ -Is the dataset URL correct?
+ -Is the dataset UUID correct?
+ -Are the ownership details of the datset correct?
+ **Other key details**
 
 ## Google-Fu
 
