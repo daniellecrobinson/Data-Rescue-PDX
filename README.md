@@ -21,7 +21,7 @@ Your mission, if you choose to accept it (which you did implicitly by showing up
 
 Your efforts will prevent these datasets from drifting into obscurity. A dataset without metadata can not be found, cited, or trusted by the scientific community. 
 
-**Warning** You will be very confused for the first hour or so, because this is confusing. The data is all over the place, there are millions of files with no rhyme or reason. But fear not, everyone goes through this. We are all in this together! Before we continue, turn to your left (or right) and introduce yourself to the recruit Data Detective sitting next to you. When you get stuck, or have a question, they are your first point of contact (and you are theirs).
+**Warning:** You will be very confused for the first hour or so, because this is confusing. The data is all over the place, there are millions of files with no rhyme or reason. But fear not, everyone goes through this. We are all in this together! Before we continue, turn to your left (or right) and introduce yourself to the recruit Data Detective sitting next to you. When you get stuck, or have a question, they are your first point of contact (and you are theirs).
 
 #### What is metadata? 
 
@@ -90,7 +90,7 @@ Since we're focusing on creating dataset metadata, we want to primarily find and
 If you find metadata, you should inspect it! If it's JSON you can copy and paste in to [JSONLint](http://jsonlint.com/). This will format the file so you can read it. Then you can copy it into a local text editor to work with it some more. If you found JSON metadata, you might still be able to improve it.   
 I'm going to try to make a bot that checks your GitHub Issues tomorrow, so watch out for the bot!
 If you are reasonably sure that the metadata you've found is describing the dataset you've adopted -- and nobody has linked to this metadata yet -- leave a comment with a link to the metadata so others can benefit from your detective work! 
-**Example:** Our example is a landing page with multiple links to download data. Files have XML metadata, which is good but this dataset needs a JSON file that describes its ownership, contents, **and other details.**
+**Example:** Our example is a landing page with multiple links to download data. Files have XML metadata, which is good but this dataset needs a JSON file that describes its ownership, contents, and other key details. So let's make one!
  
 8. Editing or creating JSON metadata  
 *If you found metadata in another form*, for example XML or even a README with a block of text, you can convert it to the JSON format using a converter or creating a file by hand in a text editor.
@@ -101,6 +101,7 @@ Take a look at this [JSON template](https://github.com/daniellecrobinson/Data-Re
  - More on metadata file in JSON formats, [more on metadata](https://project-open-data.cio.gov/v1.1/metadata-resources/) and [Schema](https://project-open-data.cio.gov/v1.1/schema/dataset.json)
 - *If you didn't find any metadata*, you are going to create metadata in a text editor for your dataset using the [JSON template](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/example.json) as a guide.
 - **Notes on JSON**:
+ - ["Pretty print" it](http://jsonprettyprint.com/) if you found it formatted as a block or long line
  - It's fussy!
  - Mind placement of all the . } and ]
  - Check your file in [JSONLint](http://jsonlint.com/) to verify that you have no syntax errors when you're done!
@@ -112,7 +113,10 @@ Take a look at this [JSON template](https://github.com/daniellecrobinson/Data-Re
  -Is the dataset URL correct?
  -Is the dataset UUID correct?
  -Are the ownership details of the datset correct?
- **Other key details**
+ -Is the JSON file formatted corrently? Check it in [JSONLint](http://jsonlint.com/), mind those extra spaces!
+ **Any other key questions to ask?**
+ 
+## Let's all try it! Beginners and those who need to set up GitHub accounts organize, and everyone else dives in.
 
 ## Google-Fu
 
