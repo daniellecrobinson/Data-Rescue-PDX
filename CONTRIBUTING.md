@@ -52,7 +52,7 @@ Quoting from their [website][link_hatrackhome]:
 
 ## How to get in touch
 
-If you have a question or a comment we'd love for you to [open an issue][https://github.com/daniellecrobinson/Data-Rescue-PDX/issues] because that will be our fastest way of communicating, getting the answers to you and (if necessary) making a change.
+If you have a question or a comment we'd love for you to [open an issue](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues) and tag an organizer in your issue.
 
 You can also join our theScience Hack PDX Slack to chat after this event or contact the organizers: https://sciencepdxslackin.herokuapp.com/
 
