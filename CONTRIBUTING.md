@@ -26,11 +26,12 @@ Then a few people will check your metadata to give you :thumbsup: :thumbsup:, ad
 
 For this project, we are using issues to track contributions. Later we can extract the all data from the all the issues you create.  If you have a question or concern, you can add an issue not related to metadata and tag the organizers or ping us on Slack (see [Get in touch](#how-to-get-in-touch) below). GitHub has a nice set of help pages if you're looking for more information about [discussing projects in issues][link_discussingissues].
 
+You can find all currently open conversations under the [issues tab](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues).
+
 ### Labels
 
-You can find all currently open conversations under the [issues tab][https://github.com/daniellecrobinson/Data-Rescue-PDX/issues].
-
-The current list of labels are [here][https://github.com/daniellecrobinson/Data-Rescue-PDX/labels] 
+The current list of labels are [here](https://github.com/daniellecrobinson/Data-Rescue-PDX/labels). 
+When you make a 
 **Add more on labels**
 
 ## Recognizing contributions
