@@ -8,6 +8,7 @@ To chat after this event, join the Science Hack PDX Slack: https://sciencepdxsla
 
 ### Citizen Science Metadata Curation Workshop!
 
+### Background
 There is curently no centralized storage and access system for scientific research datasets. Scientific data is scattered across the internet, where it may be deposited on hard to find servers without meaningful documentation to explain what the data is, who created it, the context in which it was created, and how it should be discovered and used by other researchers.
 
 Throughout the DataRefuge community, many parallel efforts are working to ensure that important datasets are discovered, nominated for archiving, and safely backed up. However, many of the datasets in the archiving queue do not have machine the readable, standard metadata critical to the archiving process.
@@ -18,45 +19,26 @@ Your mission, if you choose to accept it (which you did implicitly by showing up
 
 Your efforts will prevent these datasets from drifting into obscurity. A dataset without metadata can not be found, cited, or trusted by the scientific community. 
 
-## Principles
-
-- Any open data set requires a **chain of custody** so it can be used for research in the future.
-- Use Data Rescue Events to **build local networks** of librarians and technologists working together to set up a sustainable effort.
-- **Metadata must be considered upfront**, before any archiving takes place. By creating **high quality metadata** we will enabling high quality archiving.
-- Collaboration should take place on **open platforms that allow anyone to contribute**.
-- Embody **open source and open science values** and focus on lowering barriers to contribute.
-- Librarians will ultimately be in control of the process, and set the standard for metadata quality as **they are expert data and metadata curators**.
-- Encourage **lots of copies** of data housed in lots of institutions
-
-## Goals
-
-- **Minimize maintenance bottleneck** for organizers, e.g. libraries should be able to move forward without being blocked by infrastructure.
-- Enable many groups to produce **high quality metadata** in parallel.
-- Meaningfully **engage large numbers of volunteers** at events.
-- Encourage **local long term community building**, overlapping libraries and Data Refuge groups
-- **Empower librarians to assume curatorial roles supported by DataRefuge community**.
-- Libraries can host what data they can, and coordinate with others to **ensure good coverage**
-
 **Warning** You will be very confused for the first hour or so, because this is confusing. The data is all over the place, there are millions of files with no rhyme or reason. But fear not, everyone goes through this. We are all in this together! Before we continue, turn to your left (or right) and introduce yourself to the recruit Data Detective sitting next to you. When you get stuck, or have a question, they are your first point of contact (and you are theirs).
 
 #### What is metadata? 
 
 - Descriptive and/or machine readable information about a data set.
 - Makes the dataset useful, reusable, discoverable.
-- Good metadata is discoverable by search engines and uses open standards (today we focus on the JSON format, which is used by data.gov).
+- Good metadata is discoverable by search engines and uses open standards (today we focus on the JSON format, which is used by Data.gov).
 
 For example, a metadata file should address these questions:
 
 - Who created the data set? 
 - When was it created? 
 - Is it being maintained? 
-- Where was it downloaded form? 
+- From where was it downloaded? 
 - What types of data/How much data is in this dataset?
-- Where did this data come from? 
+- What is the origin of these data (owner, agency, instruments, creator, maintainer, contributors)? 
 - Is there a clearly documented chains of custody? 
 - Can you prove that your copy is the same data as the original?
 
-Metadata is super important -- it essentially makes data discovery and resuse possible -- and if all you do today is create metadata files, find metadata and match it to files that are being downloaded, or find a few files that need metadata, that is AWESOME and necessary!
+Metadata is super important -- it essentially makes data discovery and resuse possible -- and if all you do today is create one metadata file for one dataset, or find metadata online and match it to a dataset that has been downloaded, or find a few datasets that need metadata, that is AWESOME and necessary! No contribution is too small!
 
 ### Data Detectives: Discovering data and creating JSON metadata files
 
@@ -66,7 +48,7 @@ Here is the workflow you will be following:
 
 1. **Adopt** a dataset from the "Done" bin at [Archivers.Space](https://www.archivers.space/urls?phase=done). 
 2. **Claim** your issue/dataset [in this spreadsheet](https://docs.google.com/spreadsheets/d/1Ojgw9-VFdwO2Qxrp9a6W6X8FFS4047uhvCf8Lw3Q6gU/edit#gid=1105874853).
-3. **Research** your dataset, discover or create standard JSON formatted metadata for your dataset using a local text file.
+3. **Research** your dataset to discover or create standard JSON formatted metadata using a local text file.
 4. **Document** your dataset by [creating an issue in this repository](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues) and using our issue template to add the JSON metadata you found or created.
 5. **Verify** metadata from two other contributors. 
 6. **Repeat!**
