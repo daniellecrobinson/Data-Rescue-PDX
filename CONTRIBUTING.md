@@ -1,6 +1,6 @@
 # Contributing to Data Rescue PDX
 
-Welcome to the Data Rescue PDX GitHub repository,!
+Welcome to the Data Rescue PDX GitHub repository! :computer:
 
 The point of this file is to make it easy for you to get involved. So if you have any questions that aren't covered here please let us know! Check out the [Share your thoughts](#share-your-thoughts) section below for more details.
 
@@ -54,5 +54,4 @@ You can also join our theScience Hack PDX Slack to chat after this event or cont
 
 
 ## Thank you!
-
-You are awesome. :heart_eyes::sparkles::sunny:
+:heart_eyes::sparkles::sunny:
