@@ -9,8 +9,7 @@ Before you start you'll need to set up a free [GitHub][link_github] account and 
 Scroll down or jump to one of the following sections:
 
 * [Share your thoughts](#share-your-thoughts)
-  * [A description of the different labels](#labels)
-* [Make a change](#make-a-change)
+  * [Labels](#labels)
 * [Recognising contributions](#recognising-contributions)
 * [Get in touch](#how-to-get-in-touch)
 
@@ -50,6 +49,8 @@ Quoting from their [website][link_hatrackhome]:
 ## How to get in touch
 
 If you have a question or a comment we'd love for you to [open an issue][https://github.com/daniellecrobinson/Data-Rescue-PDX/issues] because that will be our fastest way of communicating, getting the answers to you and (if necessary) making a change.
+
+You can also join our theScience Hack PDX Slack to chat after this event or contact the organizers: https://sciencepdxslackin.herokuapp.com/
 
 
 ## Thank you!
