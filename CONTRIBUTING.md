@@ -2,24 +2,26 @@
 
 Welcome to the Data Rescue PDX GitHub repository! :computer:
 
-The point of this file is to make it easy for you to get involved. So if you have any questions that aren't covered here please let us know! Check out the [Share your thoughts](#share-your-thoughts) section below for more details.
+The point of this file is to make it easy for you to get involved. So if you have any questions that aren't covered here please let us know!
 
 Before you start you'll need to set up a free [GitHub][link_github] account and sign in. Here are some [instructions][link_signupinstructions].
 
 Scroll down or jump to one of the following sections:
 
-* [Share your thoughts](#share-your-thoughts)
+* [Issues](#issues)
   * [Labels](#labels)
-* [Recognising contributions](#recognising-contributions)
+* [Recognizing contributions](#recognising-contributions)
 * [Get in touch](#how-to-get-in-touch)
 
-## Share your thoughts, we call them "Issues"
+## Issues
+Share your thoughts, we call them "Issues". Think of issues as **conversation starters**. They're a way of communicating across all the members of the team. And for this project, Issues are where you will deposit the metadata you've created. 
 
-Although GitHub calls them **issues**, we'd like you to think of them as **conversation starters**. They're our way of communicating across all the members of the team. And for this project, Issues are where you will deposit the metadata you've created.
+Like you're saying: 
+:wave: **HEY EVERYONE! CHECK THIS OUT!** :wave:
 
-(If you're here you ***already are*** a member of the team.)
+Then a few people will check your metadata to give you :thumps up:, adding an additional level of validation.
 
-GitHub has a nice set of help pages if you're looking for more information about [discussing projects in issues][link_discussingissues].
+For this project, we are using issues to track contributions. Later we can extract the all data from the all the issues you create.  If you have a question or concern, you can add an issue not related to metadata and tag the organizers or ping us on Slack (see [Get in touch](#how-to-get-in-touch) below). GitHub has a nice set of help pages if you're looking for more information about [discussing projects in issues][link_discussingissues].
 
 ### Labels
 
