@@ -1,22 +1,24 @@
-**Climate Mirror dataset title:** e.g. NOAA ESRL GMD Radiation
+**Archivers.Space URL:** e.g. https://www.archivers.space/urls/D82A9773-81AF-4AF2-BF01-52CA2CF3BA22
 
-**Climate Mirror issue:** e.g. https://github.com/climate-mirror/datasets/issues/311
+**Archivers.Space UUID:** e.g. D82A9773-81AF-4AF2-BF01-52CA2CF3BA22
 
-**Link to datafile:** e.g. 
+**URL of Dataset:** e.g. http://nrel.gov/gis/data_solar.html
 
-**Agency:** e.g. National Oceanic & Atmospheric Administration (NOAA)
+**Agency or Department:** e.g. US Department of Energy 
 
-**Agency Division:** e.g. Oceanic and Atmospheric Research (OAR)
+**Agency Division:** e.g. Office of Energy and Renewable Energy
 
-**Agency Subdivision:** e.g. Earth System Research Laboratory (ESRL)
+**Agency Subdivision:** e.g. National Renewable Energy Laboratory (NREL)
 
-**Agency Sub-Subdivision:** e.g.Global Monitoring Division (GMD)
+**Agency Sub-Subdivision:** e.g. 
 
-**Bulk Download Link:** e.g. ftp://aftp.cmdl.noaa.gov/data/radiation/
+**Bulk Download Link:** An FTP link. e.g. ftp://aftp.cmdl.noaa.gov/data/radiation/
 
 **Size Estimate:** e.g. 196G
 
-**Data Type:** e.g. "G-Rad is involved in observational and theoretical research of the Earth's surface and atmospheric radiation budgets. The group specializes in the investigation of climatically significant variations in long-term radiation and meteorological measurements made at diverse globally-remote sites and continental US sites (SURFRAD)." - GMD Radiation website
+**Data Type:**e.g. Landing page, FTP linkInformation on the type of files, e.g. this dataset links to a landing page
+
+**Data Description:** Any short text descriptions of the data, from Archivers.Space or the data itself e.g. "This data provides monthly average and annual average daily total solar resource averaged over surface cells of 0.1 degrees in both latitude and longitude, or about 10 km in size. This data was developed using the State University of New York/Albany satellite radiation model. This model was developed by Dr. Richard Perez and collaborators at the National Renewable Energy Laboratory and other universities for the U.S. Department of Energy." 
 
 **Other URLS:**
 
@@ -61,3 +63,4 @@ If you don't know a value, leave it blank. Check your JSON for errors with [JSON
   ]
 }
 ```
+
