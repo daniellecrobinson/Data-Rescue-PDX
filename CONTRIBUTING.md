@@ -35,7 +35,7 @@ The current list of labels are [here][https://github.com/daniellecrobinson/Data-
 
 ## Recognizing contributions
 
-If you're logged into GitHub you can see everyone who has contributed to the repository via our [live contributors page][https://labhr.github.io/hatrack/#repo=daniellecrobinson/Data-Rescue-PDX]. 
+If you're logged into GitHub you can see everyone who has contributed to the repository via our [live contributors page](https://labhr.github.io/hatrack/#repo=daniellecrobinson/Data-Rescue-PDX). 
 
 These pages are powered by the [Let's all build a hat rack][link_hatrackhome] project, and we love them. 
 
