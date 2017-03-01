@@ -6,6 +6,9 @@ The point of this file is to make it easy for you to get involved. So if you hav
 
 Before you start you'll need to set up a free [GitHub][link_github] account and sign in. Here are some [instructions][link_signupinstructions].
 
+Do you have a GitHub account now? 
+**Success!!** :balloon::balloon::balloon: Well done! And thank you for participating in this project? :smiley::tada::sparkles:
+
 Scroll down or jump to one of the following sections:
 
 * [Issues](#issues)
@@ -29,8 +32,6 @@ You can find all currently open conversations under the [issues tab][https://git
 
 The current list of labels are [here][https://github.com/daniellecrobinson/Data-Rescue-PDX/labels] 
 **Add more on labels**
-
-**Success!!** :balloon::balloon::balloon: Well done! And thank you :smiley::tada::sparkles:
 
 ## Recognizing contributions
 
