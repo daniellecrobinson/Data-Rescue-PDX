@@ -1,3 +1,6 @@
+Replace the information in this Issue Template with the information for the dataset you are working with, and add a JSON file at the end. Example values and an example JSON file are shown, leave blank spaces if you can not find the information for your dataset.
+When adding your JSON file, leave the ``` { } ``` structure, as this denotes a block of code.
+
 **Archivers.Space URL:** e.g. https://www.archivers.space/urls/D82A9773-81AF-4AF2-BF01-52CA2CF3BA22
 
 **Archivers.Space UUID:** e.g. D82A9773-81AF-4AF2-BF01-52CA2CF3BA22
