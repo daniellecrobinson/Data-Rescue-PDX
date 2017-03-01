@@ -2,6 +2,8 @@
 
 Volunteers! Welcome and thank you for spending your time with us.
 
+Tools reguired: A laptop, curiosity, and a GitHub account. If you have never used GitHub - welcome! We will talk beginners through setting up GitHub accounts and the use of the platform. See our [Contributing Guide](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/CONTRIBUTING.md) for more information.
+
 This event is a volunteer effort to contribute to data back up efforts. By attending you agree to our [Code of Conduct](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/CODE_OF_CONDUCT.md) which we will enforce.
 
 To chat after this event, join the Science Hack PDX Slack: https://sciencepdxslackin.herokuapp.com/
