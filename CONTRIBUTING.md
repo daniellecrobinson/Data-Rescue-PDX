@@ -4,7 +4,7 @@ Welcome to the Data Rescue PDX GitHub repository! :computer:
 
 The point of this file is to make it easy for you to get involved. So if you have any questions that aren't covered here please let us know!
 
-Before you start you'll need to set up a free [GitHub][link_github] account and sign in. Here are some [instructions][link_signupinstructions].
+Before you start you'll need to set up a free [GitHub](link_github) account and sign in. Here are some [instructions][link_signupinstructions].
 
 Do you have a GitHub account now? 
 **Success!!** :balloon::balloon::balloon: Well done! And thank you for participating in this project? :smiley::tada::sparkles:
@@ -58,3 +58,11 @@ You can also join our theScience Hack PDX Slack to chat after this event or cont
 
 ## Thank you!
 :heart_eyes::sparkles::sunny:
+
+[link_github]: https://github.com/
+[link_signupinstructions]: https://help.github.com/articles/signing-up-for-a-new-github-account
+[link_discussingissues]: https://help.github.com/articles/discussing-projects-in-issues-and-pull-requests
+[link_hatrackhome]: https://labhr.github.io/
+[link_hatrackidea]: http://hawthornlandings.org/2015/02/13/a-place-to-hang-your-hat/
+[link_hatrackcontributions]: http://opensource.com/life/15/10/octohat-github-non-code-contribution-tracker
+
