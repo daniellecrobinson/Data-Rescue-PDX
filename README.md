@@ -15,9 +15,11 @@ There is curently no centralized storage and access system for scientific resear
 
 Throughout the DataRefuge community, many parallel efforts are working to ensure that important datasets are discovered, nominated for archiving, and safely backed up. However, many of the datasets in the archiving queue do not have machine the readable, standard metadata critical to the archiving process.
 
+We've aggregated all the metadata that has been rescued and published at [DataRefuge.org](http://datarefuge.org/) and placed the metadata in the folder `datarefuge-json`. These are files created by the volunteer who backed up the data to DataRefuge in ["bags"](https://tools.ietf.org/html/draft-kunze-bagit-14), but we need to help them improve their metadata!
+
 That's where you come in! We need your help to adopt one of these datasets, hopefully before they disappear from the web. Funding for science is uncertain, and datasets and the websites that accompany them could disappear at any time.
 
-Your mission, if you choose to accept it (which you did implicitly by showing up and eating the snacks), is to create metadata and documentation for the scientific datasets that are being backed up by other DataRefuge efforts so that their existence and provenance is recorded into the online public record with standard, open metadata.
+Your mission, if you choose to accept it (which you did implicitly by showing up and eating the snacks), is to improve metadata and documentation for the scientific datasets that are being backed up by other DataRefuge efforts so that their existence and provenance is recorded into the online public record with standard, open metadata.
 
 Your efforts will prevent these datasets from drifting into obscurity. A dataset without metadata can not be found, cited, or trusted by the scientific community. 
 
@@ -77,7 +79,7 @@ With appologies to EPA Enviornmental Justice Grant Programs, this is less-good m
 }
 ```
 
-Machine readable metadata is super important -- it essentially makes data discovery and resuse possible -- and if all you do today is create one metadata file for one dataset, or find metadata online and match it to a dataset that has been downloaded, or find a few datasets that need metadata, that is AWESOME and necessary! No contribution is too small!
+Machine readable metadata is super important -- it essentially makes data discovery and resuse possible -- and if all you do today is improve one metadata file for one dataset, or find metadata online and match it to a dataset that has been downloaded, or find a few datasets that need metadata, that is AWESOME and necessary! No contribution is too small!
 
 ### Data Detectives: Discovering data and creating JSON metadata files
 
@@ -87,8 +89,8 @@ Here is the workflow you will be following:
 
 1. **Adopt** a dataset from the `datarefuge-json` folder that nobody else has claimed yet
 2. **Claim** your issue/dataset [in this spreadsheet](https://docs.google.com/spreadsheets/d/1Ojgw9-VFdwO2Qxrp9a6W6X8FFS4047uhvCf8Lw3Q6gU/edit#gid=1105874853).
-3. **Research** your dataset to discover or create standard JSON formatted metadata using a local text file.
-4. **Document** your dataset by [creating an issue in this repository](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues) and using our issue template to add the JSON metadata you found or created.
+3. **Research** your dataset to improve standard JSON formatted metadata using a local text file.
+4. **Document** your dataset by [creating an issue in this repository](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues) and using our issue template to add the JSON metadata you improved.
 5. **Verify** metadata from two other contributors. 
 6. **Repeat!**
 
@@ -97,7 +99,7 @@ Here is the workflow you will be following:
 Here is a sample exercise to take you through the workflow
 
 1. Adopt a dataset from the `datarefuge-json` folder. Each file in this folder has a ID as it's name. This ID comes from the [DataRefuge.org](https://datarefuge.org) repository. Search the google spreadsheet for your ID and URL before claiming your dataset Visit the issues list and find one that nobody else has adopted yet.  
-**Example:** We're going to adopt this dataset: `datarefuge-jsons/D82A9773-81AF-4AF2-BF01-52CA2CF3BA22.json`. We've updated the Google Spreadsheet and are ready to dive in.  
+**Example:** We're going to adopt this dataset: `datarefuge-json/D82A9773-81AF-4AF2-BF01-52CA2CF3BA22.json`. We've updated the Google Spreadsheet and are ready to dive in.  
 You might find after a few minutes that your dataset is incredibly confusing and hard to understand. This is normal. Here are some questions to ask during your research phase:
 
 2. Is the URL to a server with a bunch of datasets or one specific dataset?  
@@ -136,7 +138,7 @@ Take a look at this [JSON template](https://github.com/daniellecrobinson/Data-Re
 - JSON organizes information about the data, the organization, and resources contained in the dataset. 
 - The example contains one a dataset with multiple resources, see more examples in Max Ogden's [100 JSON files from Data.gov](https://github.com/jsonlines/guide/blob/master/datagov100.json) - but don't worry about the resoures, scrapers will get resources. Huamns are better at finding extra details like licenses.
  - More on metadata file in JSON formats, [more on metadata](https://project-open-data.cio.gov/v1.1/metadata-resources/) and [Schema](https://project-open-data.cio.gov/v1.1/schema/dataset.json)
-- *If you didn't find any metadata*, you are going to create metadata in a text editor for your dataset using the [JSON template](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/example-2.json) as a guide. Don't get crazy with adding resources, focus on collecting info that humans are good at getting, like mission/experiment, licensing, and other details that may be hidden.
+- *To improve your metadata*, you are going to edit your metadata in a text editor for your dataset using the [JSON template](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/example-2.json) as a guide. Focus on collecting info that humans are good at getting, like mission/experiment, licensing, and other details that may be hidden.
 
 - **Notes on JSON**:
  - ["Pretty print" it](http://jsonprettyprint.com/) if you found it formatted as a block or long line
@@ -144,7 +146,7 @@ Take a look at this [JSON template](https://github.com/daniellecrobinson/Data-Re
  - Mind placement of all the . } and ]
  - Check your file in [JSONLint](http://jsonlint.com/) to verify that you have no syntax errors when you're done!
  
- Make it in your favorite text editor 
+ Use your favorite text editor 
  ![screenshot](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/Screenshot_SolarData_JSON.png)
 
 ```
