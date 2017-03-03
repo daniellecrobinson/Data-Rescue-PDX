@@ -144,6 +144,8 @@ Take a look at this [JSON template](https://github.com/daniellecrobinson/Data-Re
  - It's fussy! I had to check my JSON 3 times before I found an errant ", was throwing it off
  - Mind placement of all the . } and ]
  - Check your file in [JSONLint](http://jsonlint.com/) to verify that you have no syntax errors when you're done!
+ 
+ [Make it in your favorite text editor](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/Screenshot_SolarData_JSON.png)
 
 ```
 {
