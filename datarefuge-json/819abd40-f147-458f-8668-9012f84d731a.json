@@ -1,0 +1,12 @@
+  {
+        "Individual source or seed URL": "http://www.goes-r.gov/users/sci-sem/2014_05_30.html",
+        "UUID": "819abd40-f147-458f-8668-9012f84d731a",
+        "Institution facilitating the data capture creation and packaging": "DataRescueDavis",
+        "Date of capture": "2017-02-02",
+        "Federal agency data acquired from": "NOAA, NASA",
+        "Name of resource": "Geostationary Operational Environmental Satellite — R Series ",
+        "File formats contained in package": ".pdf, .pptx, .mp4",
+        "Type(s) of content in package": "abstracts, presentation, video",
+        "Free text description of capture process": "No information on how this data was extracted. Seems to have been downloaded manually.",
+        "Name of package creator": "@jrudnick"
+    }

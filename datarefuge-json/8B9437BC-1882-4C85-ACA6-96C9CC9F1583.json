@@ -1,0 +1,15 @@
+{
+	"Date of capture": "Sun Feb 19 2017 15:03:12 GMT-0500 (EST)",
+	"File formats contained in package": "shp, xml",
+	"Free text description of capture process": "Manual download of files",
+	"Individual source or seed URL": "https://catalog.data.gov/dataset/concentrated-animal-feeding-operations-cafos-per-county-downloadable-package-us-2013-us-epa",
+	"Institution facilitating the data capture creation and packaging": "",
+	"Name of package creator": "chris",
+	"Name of resource": "",
+	"Type(s) of content in package": "Concentrated Animal Feeding Operations (CAFOs) by US county for 2013, collected by the EPA’s Office of Water. The dataset is a shapefile, Esri map, and related XML data.",
+	"UUID": "8B9437BC-1882-4C85-ACA6-96C9CC9F1583",
+	"recommended_approach": "Direct zip file download",
+	"significance": "Concentrated Animal Feeding Operations (CAFOs) by US county for 2013, collected by the EPA’s Office of Water. The dataset is a shapefile, Esri map, and related XML data.",
+	"title": "CAFOs per County",
+	"url": "https://catalog.data.gov/dataset/concentrated-animal-feeding-operations-cafos-per-county-downloadable-package-us-2013-us-epa"
+}

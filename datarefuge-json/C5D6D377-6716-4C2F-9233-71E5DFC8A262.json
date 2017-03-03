@@ -1,0 +1,12 @@
+{
+    "Individual source or seed URL": "ftp://data.ncdc.noaa.gov/cdr/solar-irradiance/tsi/",
+    "UUID": "C5D6D377-6716-4C2F-9233-71E5DFC8A262",
+    "Institution facilitating the data capture creation and packaging": "Penn Data Refuge",
+    "Date of capture": "2017-02-04",
+    "Federal agency data acquired from": "National Oceanic and Atmospheric Administration",
+    "Name of resource": "Solar Irradiance Data",
+    "File formats contained in package": ".txt, .nc",
+    "Type(s) of content in package": "dataset, index",
+    "Free text description of capture process": "Metadata generated from NOAA's data catalog entry, data was downloaded using download_ftp_tree.py",
+    "Name of package creator": "Nick Gregory"
+}

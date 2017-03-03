@@ -1,0 +1,16 @@
+{
+ "Individual source or seed URL": "http://www.ndbc.noaa.gov/station_history.php?station=01503",
+"UUID" : "C8B49A36-D472-4E20-AC01-94B75E0E7411",
+"id_agency" : 3,
+"id_subagency": ,
+"id_org":,
+"id_suborg":,
+"Institution facilitating the data capture creation and packaging": "A2 Data Refuge",
+"Date of capture": "2017-01-28",
+"Federal agency data acquired from": "National Oceanic and Atmospheric Administration",
+"Name of resource": "NDBC - Station 01503 Historical Data",
+"File formats contained in package": ".png",
+"Type(s) of content in package": "Images with salinity/depth/temperature data",
+"Free text description of capture process": "Performed wget on URLs on PHP endpoint that dynamically return png data.",
+"Name of package creator": "Suby Raman"
+}

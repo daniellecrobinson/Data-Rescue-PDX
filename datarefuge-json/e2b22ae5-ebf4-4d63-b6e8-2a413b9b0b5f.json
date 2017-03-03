@@ -1,0 +1,12 @@
+{
+  "Individual source or seed URL": "http://apps3.eere.energy.gov/greenpower/buying/buying_power.shtml",
+  "UUID": "e2b22ae5-ebf4-4d63-b6e8-2a413b9b0b5f",
+  "Institution facilitating the data capture creation and packaging": "UC Davis Data Refuge",
+  "Date of capture": "2017-02-02",
+  "Federal agency data acquired from": "U.S. Department of Energy",
+  "Name of resource": "Green Power Network: Can I Buy Green Power in My State?",
+  "File formats contained in package": ".csv, .html",
+  "Type(s) of content in package": "websites",
+  "Free text description of capture process": "Follow links to each state, read links from tables within each state's page, write the contents of each state's table's links.  Each state's landing page is saved, and each state gets its own folder of its table's contents.",
+  "Name of package creator": "Essia Hamouda, Edward A. Roualdes"
+}

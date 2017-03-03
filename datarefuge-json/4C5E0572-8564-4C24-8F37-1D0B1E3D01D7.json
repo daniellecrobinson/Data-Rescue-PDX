@@ -1,0 +1,14 @@
+{
+	"Date of capture": "Fri Feb 24 2017 16:41:09 GMT-0600 (CST)",
+	"File formats contained in package": "CSV",
+	"Individual source or seed URL": "https://www2.usgs.gov/phonebook/employee",
+	"Institution facilitating the data capture creation and packaging": "",
+	"Name of package creator": "cmcfadden",
+	"Name of resource": "",
+	"Type(s) of content in package": "Employee Contact Information United States Geological Survey",
+	"UUID": "4C5E0572-8564-4C24-8F37-1D0B1E3D01D7",
+	"recommended_approach": "curl requests submitted post data ",
+	"significance": "Employee Contact Information United States Geological Survey",
+	"title": "Employee Phonebook",
+	"url": "https://www2.usgs.gov/phonebook/employee"
+}

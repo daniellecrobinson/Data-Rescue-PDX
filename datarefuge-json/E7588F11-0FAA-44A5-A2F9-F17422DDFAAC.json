@@ -1,0 +1,12 @@
+{
+  "Individual source or seed URL": "http://www.wrcc.dri.edu/climatedata/tables/",
+  "UUID": "E7588F11-0FAA-44A5-A2F9-F17422DDFAAC",
+  "Institution facilitating the data capture creation and packaging": "A2 Data Rescue",
+  "Date of capture": "2017-01-28",
+  "Federal agency data acquired from": "Western Regional Climate Center",
+  "Name of resource": "Comparative Tables",
+  "File formats contained in package": ".csv, .html",
+  "Type(s) of content in package": "datasets",
+  "Free text description of capture process": "CSV files created by copying data directly from site. HTML files created using wget loop.",
+  "Name of package creator": "Erin Maxwell, Zach Pritchard"
+}

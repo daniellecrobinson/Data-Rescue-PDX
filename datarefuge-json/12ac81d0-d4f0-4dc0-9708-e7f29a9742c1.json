@@ -1,0 +1,12 @@
+{
+    "Individual source or seed URL": "http://www.goes-r.gov/users/past-2013-01-14.html",
+    "UUID": "12ac81d0-d4f0-4dc0-9708-e7f29a9742c1",
+    "Institution facilitating the data capture creation and packaging": "UC Davis DSI",
+    "Date of capture": "2-2-17",
+    "Federal agency data acquired from": "NASA and NOAA",
+    "Name of resource": "",
+    "File formats contained in package": ".ppt and .pdf",
+    "Type(s) of content in package": "NOAA/NASA institutional update CIMSS update",
+    "Free text description of capture process": "used r to download data",
+    "Name of package creator": "Hannah Waterhouse and Stewart Wilson"
+}

@@ -1,0 +1,12 @@
+{
+    "Individual source or seed URL": "http://satelliteconferences.noaa.gov/2013/adgen_list.htm",
+    "UUID": "83B7A19B-278E-411E-9996-0D997D09AF4C",
+    "Institution facilitating the data capture creation and packaging": "Penn Data Refuge",
+    "Date of capture": "2017-02-04",
+    "Federal agency data acquired from": "National Oceanic and Atmospheric Administration",
+    "Name of resource": "NOAA Satellite Conference 2013 - Presentations",
+    "File formats contained in package": ".mov, .ppt, .pptx, .pdf",
+    "Type(s) of content in package": "presentations, videos",
+    "Free text description of capture process": "wget mirror of the schedule",
+    "Name of package creator": "Nick Gregory"
+}

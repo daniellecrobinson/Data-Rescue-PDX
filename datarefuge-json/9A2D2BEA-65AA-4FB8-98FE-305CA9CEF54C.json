@@ -1,0 +1,15 @@
+{
+    "Date of capture": "Sat Feb 11 2017 10:51:02 GMT-0800 (PST)",
+    "File formats contained in package": "CSV",
+    "Individual source or seed URL": "https://data.giss.nasa.gov/gistemp",
+    "Institution facilitating the data capture creation and packaging": "DataRescue SF",
+    "Name of package creator": "jameszhu",
+    "Federal agency data acquired from": "NASA",
+    "Name of resource": "",
+    "Type(s) of content in package": "Dynamically updated estimates of global surface temperature change, updated around the middle of every month using current data files from NOAA GHCN v3 (meteorological stations), ERSST v4 (ocean areas), and SCAR (Antarctic stations).",
+    "UUID": "9A2D2BEA-65AA-4FB8-98FE-305CA9CEF54C",
+    "recommended_approach": "",
+    "significance": "Dynamically updated estimates of global surface temperature change, updated around the middle of every month using current data files from NOAA GHCN v3 (meteorological stations), ERSST v4 (ocean areas), and SCAR (Antarctic stations).",
+    "title": "GISS Surface Temperature Analysis (GISTEMP)",
+    "url": "https://data.giss.nasa.gov/gistemp"
+}

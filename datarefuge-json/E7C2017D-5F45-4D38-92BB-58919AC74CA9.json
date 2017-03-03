@@ -1,0 +1,13 @@
+{"Date of capture":"Sat Feb 11 2017 13:05:30 GMT-0600 (CST)",
+"File formats contained in package":"txt, tar",
+"Free text description of capture process":"FTP scrape",
+"Individual source or seed URL":"http://www7.ncdc.noaa.gov/CDO/cdoselect.cmd?datasetabbv=GSOD\u0026countryabbv=\u0026georegionabbv=",
+"Institution facilitating the data capture creation and packaging":"DataRescue Austin",
+"Name of package creator":"decibel",
+"Name of resource":"",
+"Type(s) of content in package":"must state when moving this data that it will not be used for commercial use: \nThe following data and products may have conditions placed on their international commercial use. They can be used within the U.S. or for non-commercial international activities without restriction. The non-U.S. data cannot be redistributed for commercial purposes. Re-distribution of these data by others must provide this same notification. A log of IP addresses accessing these data and products will be maintained and may be made available to data providers.\n\nlots of files, requires FTP crawler but also asks for credentials if using Safari (but not Chrome). ",
+"UUID":"E7C2017D-5F45-4D38-92BB-58919AC74CA9",
+"recommended_approach":"Lots of different formats, should be easy to use the txt files but will need an FTP crawler. Tried using BeautifulSoup in python but due to credentials needed I couldn't get it to work. ",
+"significance":"must state when moving this data that it will not be used for commercial use: \nThe following data and products may have conditions placed on their international commercial use. They can be used within the U.S. or for non-commercial international activities without restriction. The non-U.S. data cannot be redistributed for commercial purposes. Re-distribution of these data by others must provide this same notification. A log of IP addresses accessing these data and products will be maintained and may be made available to data providers.\n\nlots of files, requires FTP crawler but also asks for credentials if using Safari (but not Chrome). ",
+"title":"Global Summary of the Day (GSOD)",
+"url":"http://www7.ncdc.noaa.gov/CDO/cdoselect.cmd?datasetabbv=GSOD\u0026countryabbv=\u0026georegionabbv="}

@@ -1,0 +1,16 @@
+{
+ "Individual source or seed URL": "http://www.goes-r.gov/users/2013-05-06-PG-AH.html",
+"UUID" : "2dd2cc96-31da-45c2-8ebe-a12217fdfbd2",
+"id_agency" : 2,
+"id_subagency": null,
+"id_org":null,
+"id_suborg":null,
+"Institution facilitating the data capture creation and packaging": "DataRescueData",
+"Date of capture": "2017-02-17",
+"Federal agency data acquired from": "NOAA",
+"Name of resource": "2013 PROVING GROUND ALL HANDS TELECONFERENCE",
+"File formats contained in package": ".pdf, .pptx",
+"Type(s) of content in package": "presentations and brochures",
+"Free text description of capture process": "Used standard getDocs.r file",
+"Name of package creator": "Sam Fleischer et al"
+}

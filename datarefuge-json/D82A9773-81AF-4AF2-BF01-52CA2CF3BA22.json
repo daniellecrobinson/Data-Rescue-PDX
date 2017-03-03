@@ -1,0 +1,14 @@
+{
+	"Date of capture": "Fri Feb 24 2017 16:43:48 GMT-0600 (CST)",
+	"File formats contained in package": "xml, shp, kmz",
+	"Individual source or seed URL": "http://nrel.gov/gis/data_solar.html",
+	"Institution facilitating the data capture creation and packaging": “DataRescueTC”,
+	"Name of package creator": "jschalz",
+	"Name of resource": “National Renewable Energy Labratory -NREL- Dynamic Maps, GIS Data, & Analysis Tools”,
+	"Type(s) of content in package": "This data provides monthly average and annual average daily total solar resource averaged over surface cells of 0.1 degrees in both latitude and longitude, or about 10 km in size. This data was developed using the State University of New York/Albany satellite radiation model. This model was developed by Dr. Richard Perez and collaborators at the National Renewable Energy Laboratory and other universities for the U.S. Department of Energy. ",
+	"UUID": "D82A9773-81AF-4AF2-BF01-52CA2CF3BA22",
+	"recommended_approach": "Download through web browser.",
+	"significance": "This data provides monthly average and annual average daily total solar resource averaged over surface cells of 0.1 degrees in both latitude and longitude, or about 10 km in size. This data was developed using the State University of New York/Albany satellite radiation model. This model was developed by Dr. Richard Perez and collaborators at the National Renewable Energy Laboratory and other universities for the U.S. Department of Energy. ",
+	"title": "Dynamic maps, GIS data \u0026 Analysis tools",
+	"url": "http://nrel.gov/gis/data_solar.html"
+}

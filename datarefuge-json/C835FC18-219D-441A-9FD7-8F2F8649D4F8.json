@@ -1,0 +1,16 @@
+{
+    "Date of capture": "Sat Feb 11 2017 16:08:27 GMT-0800 (PST)",
+    "Federal agency data acquired from": "Environmental Protection Agency",
+    "File formats contained in package": "ZIP, CSV, MS Access",
+    "Individual source or seed URL": "https://epa.gov/tsca-inventory/how-access-tsca-inventory",
+    "Institution facilitating the data capture creation and packaging": "University of California, Berkeley",
+    "Name of package creator": "akokai",
+    "Name of resource": "Toxic Substances Control Act (TSCA) Chemical Substance Inventory",
+    "Type(s) of content in package": "Decades of reports from manufacturers, processors and importers of chemical substances manufactured, processed, imported into the US. This is the public version, thus excluding chemical identities labeled as confidential.",
+    "UUID": "C835FC18-219D-441A-9FD7-8F2F8649D4F8",
+    "recommended_approach": "There are links to Microsoft Access and CSV versions of the files from the latest inventory. I do not know where the historical data are. ",
+    "Free text description of capture process": "Download files individually",
+    "significance": "Decades of reports from manufacturers, processors and importers of chemical substances manufactured, processed, imported into the US. This is the public version, thus excluding chemical identities labeled as confidential.",
+    "title": "Toxic Substances Control Act (TSCA) Chemical Substance Inventory",
+    "url": "https://epa.gov/tsca-inventory/how-access-tsca-inventory"
+}

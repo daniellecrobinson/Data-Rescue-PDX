@@ -1,0 +1,14 @@
+{
+	"Date of capture": "Sat Feb 18 2017 10:57:52 GMT-0500 (EST)",
+	"File formats contained in package": "Excel",
+	"Individual source or seed URL": "https://www3.epa.gov/carbon-footprint-calculator/",
+	"Institution facilitating the data capture creation and packaging": “DataRescue Boston at MIT”,
+	"Name of package creator": “Rebecca Fraimow“,
+	"Name of resource": “Carbon Footprint Calculator in Excel“,
+	"Type(s) of content in package": "Carbon footprint calculator for households with associated background information.",
+	"UUID": "19884568-DDBD-4AE4-80BD-9281DCE1C501",
+	"recommended_approach": "Download the accompanying Excel file",
+	"significance": "Carbon footprint calculator for households with associated background information.",
+	"title": "Carbon Footprint Calculator | Climate Change | US EPA",
+	"url": "https://www3.epa.gov/carbon-footprint-calculator/"
+}

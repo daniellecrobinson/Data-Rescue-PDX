@@ -1,0 +1,14 @@
+{
+	"Date of capture": "Sun Feb 19 2017 11:22:58 GMT-0500 (EST)",
+	"File formats contained in package": "pdf, zip, xml",
+	"Individual source or seed URL": "https://jointmission.gsfc.nasa.gov/documents.html",
+	"Institution facilitating the data capture creation and packaging": "DataRescueDC",
+	"Name of package creator": "mkahn",
+	"Name of resource": "Polar Orbiting Missions",
+	"Type(s) of content in package": "pdf, zip, xml",
+	"UUID": "E00A0304-8D7C-4D77-AD67-9EFF42CBA4A2",
+	"recommended_approach": "Crawl and download. Linked data contains varying formats",
+	"significance": "",
+	"title": "Polar Orbiting Missions",
+	"url": "https://jointmission.gsfc.nasa.gov/documents.html"
+}

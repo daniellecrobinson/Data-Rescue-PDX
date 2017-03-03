@@ -1,0 +1,16 @@
+{
+ "Individual source or seed URL": "https://plants.usda.gov/dl_all.html",
+"UUID" : "D6318B81-F5AA-421B-BC13-9EA88E5F7547",
+"id_agency" : ,
+"id_subagency": ,
+"id_org":,
+"id_suborg":,
+"Institution facilitating the data capture creation and packaging": "Ann Arbor Data Refuge",
+"Date of capture": "2017-01-27",
+"Federal agency data acquired from": "USDA",
+"Name of resource": "USDA Plants Database",
+"File formats contained in package": "csv",
+"Type(s) of content in package": "datasets",
+"Free text description of capture process": "links generated for downloadable data w/ jquery; fetched with wget",
+"Name of package creator": "Aaron Elkiss"
+}

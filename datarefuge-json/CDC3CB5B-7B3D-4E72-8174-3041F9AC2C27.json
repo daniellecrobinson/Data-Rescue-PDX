@@ -1,0 +1,16 @@
+{
+  "Individual source or seed URL": "https://www.st.nmfs.noaa.gov/observer-home/first-edition-update-2",
+  "UUID" : "CDC3CB5B-7B3D-4E72-8174-3041F9AC2C27",
+  "id_agency" : 3,
+  "id_subagency": 3,
+  "id_org": 2,
+  "id_suborg": 0,
+  "Institution facilitating the data capture creation and packaging": "A2 Data Rescue",
+  "Date of capture": "2017-01-27",
+  "Federal agency data acquired from": "National Oceanic and Atmospheric Administration",
+  "Name of resource": "First Edition Update 2",
+  "File formats contained in package": ".pdf",
+  "Type(s) of content in package": "datasets",
+  "Free text description of capture process": "PDF links were harvest from page and downloaded using a wget loop",
+  "Name of package creator": "James Kruth"
+}

@@ -1,0 +1,15 @@
+{
+	"Date of capture": "Sat Feb 18 2017 15:50:46 GMT-0500 (EST)",
+	"File formats contained in package": "JPG, HTML",
+	"Free text description of capture process": "Simple page scrape of an image gallery",
+	"Individual source or seed URL": "http://www.goes-r.gov/multimedia/instr-Seiss.html",
+	"Institution facilitating the data capture creation and packaging": "MIT",
+	"Name of package creator": "gcgaudette",
+	"Name of resource": "",
+	"Type(s) of content in package": "Picture gallery documenting the development of the instruments for a weather / climate satellite constellation that was recently launched.  Photos on Flickr.\n\nAlbum description\nThe Space Environment In-Situ Suite (SEISS) is comprised of four sensors on the Geostationary Operational Environmental Satellite R Series (GOES-R) spacecraft that will monitor proton, electron, and heavy ion fluxes at geosynchronous orbit. The information provided by SEISS is critical for assessing the electrostatic discharge (ESD) risk and radiation hazard to astronauts and satellites. In addition to hazard assessment, the information from SEISS can be used to warn of high flux events, mitigating any damage to radio communication. \n\nThe SEISS instrument suite consists of: the Energetic Heavy Ion Sensor (EHIS), the Magnetospheric Particle Sensors - High and Low (MPS-HI and MPS-LO), and the Solar and Galactic Proton Sensor (SGPS). Data from SEISS will drive solar radiation storm portion of NOAA space weather scales and other alerts and warnings and will improve energetic particle forecasts.",
+	"UUID": "C5C8A5B9-6ABA-4809-B3CC-C6C07E47A291",
+	"recommended_approach": "Directly download image files from Flickr gallery. Download HTML page (HTML Only) for each image for context.",
+	"significance": "Picture gallery documenting the development of the instruments for a weather / climate satellite constellation that was recently launched.  Photos on Flickr.\n\nAlbum description\nThe Space Environment In-Situ Suite (SEISS) is comprised of four sensors on the Geostationary Operational Environmental Satellite R Series (GOES-R) spacecraft that will monitor proton, electron, and heavy ion fluxes at geosynchronous orbit. The information provided by SEISS is critical for assessing the electrostatic discharge (ESD) risk and radiation hazard to astronauts and satellites. In addition to hazard assessment, the information from SEISS can be used to warn of high flux events, mitigating any damage to radio communication. \n\nThe SEISS instrument suite consists of: the Energetic Heavy Ion Sensor (EHIS), the Magnetospheric Particle Sensors - High and Low (MPS-HI and MPS-LO), and the Solar and Galactic Proton Sensor (SGPS). Data from SEISS will drive solar radiation storm portion of NOAA space weather scales and other alerts and warnings and will improve energetic particle forecasts.",
+	"title": "GOES-R Instruments Image Gallery",
+	"url": "http://www.goes-r.gov/multimedia/instr-Seiss.html"
+}

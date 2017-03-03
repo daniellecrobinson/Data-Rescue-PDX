@@ -1,0 +1,14 @@
+{
+	"Date of capture": "Sat Feb 18 2017 10:41:30 GMT-0500 (EST)",
+	"File formats contained in package": "HDF-5, PDF, XML",
+	"Individual source or seed URL": "https://disc.sci.gsfc.nasa.gov/uui/datasets/GPM_3IMERGDF_V03/summary",
+	"Institution facilitating the data capture creation and packaging": "",
+	"Name of package creator": "rosannaz",
+	"Name of resource": "GPM_3IMERGDF: GPM (IMERG) Final Precipitation L3 1 day 0.1 degree x 0.1 degree V03",
+	"Type(s) of content in package": "This url is part of this larger one : http://www.archivers.space/urls/B59D4BAC-EE63-4E01-8F3B-8689B220ABD2 (7 datasets)\n\nGPM_3IMERGHHL: GPM L3 IMERG Late Half Hourly 0.1 degree x 0.1 degree Precipitation V03\nRelevance/High Level Description: Satellite collected precipitation data that feeds into a climate prediction model and cloud classification model\n\nSpecific Description: These are provided to both the Climate Prediction Center (CPC) Morphing-Kalman Filter (CMORPH-KF) Lagrangian time interpolation scheme and the Precipitation Estimation from Remotely Sensed Information using Artificial Neural Networks Cloud Classification System (PERSIANN-CCS) re-calibration scheme.",
+	"UUID": "96F4751A-2846-44D1-8167-43960B7FDA39",
+	"recommended_approach": "You can find the ftp server address in the first xml file (click on online archive on the right). From then wget can download everything\n\nPlease make a pdf with all information from the landing page and download associated documents :\n-Requires specific citation listed on landing page. Remember to save this along with each data file. \n-Documentation also located on landing page. Save this as well (PDF format)\n-Product Summary also contains important information regarding spatial coverage and relevant time range. \n\nPlease ping me on slack (@tek) if you need help",
+	"significance": "This url is part of this larger one : http://www.archivers.space/urls/B59D4BAC-EE63-4E01-8F3B-8689B220ABD2 (7 datasets)\n\nGPM_3IMERGHHL: GPM L3 IMERG Late Half Hourly 0.1 degree x 0.1 degree Precipitation V03\nRelevance/High Level Description: Satellite collected precipitation data that feeds into a climate prediction model and cloud classification model\n\nSpecific Description: These are provided to both the Climate Prediction Center (CPC) Morphing-Kalman Filter (CMORPH-KF) Lagrangian time interpolation scheme and the Precipitation Estimation from Remotely Sensed Information using Artificial Neural Networks Cloud Classification System (PERSIANN-CCS) re-calibration scheme.",
+	"title": "GPM_3IMERGDF: GPM (IMERG) Final Precipitation L3 1 day 0.1 degree x 0.1 degree V03",
+	"url": "https://disc.sci.gsfc.nasa.gov/uui/datasets/GPM_3IMERGDF_V03/summary"
+}

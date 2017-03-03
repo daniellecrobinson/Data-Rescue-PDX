@@ -1,0 +1,16 @@
+{
+ "Individual source or seed URL": "https://www.st.nmfs.noaa.gov/apex/f?p=160:61:0::NO",
+"UUID" : "9B9E8D9A-57C1-41DC-BDE3-8BCD3BDC773C",
+"id_agency" : 3,
+"id_subagency": 3,
+"id_org": "2",
+"id_suborg": ,
+"Institution facilitating the data capture creation and packaging": "A2 Data Refuge",
+"Date of capture": "2017-01-28",
+"Federal agency data acquired from": "National Oceanic and Atmospheric Administration",
+"Name of resource": "NOAA :: National Marine Fisheries Service :: Fisheries Economics of the U.S.",
+"File formats contained in package": "html",
+"Type(s) of content in package": "HTML files containing tables produced by a search on each year and region",
+"Free text description of capture process": "Used Selenium + chrome to select every permutation of year and region, saved HTML response in files",
+"Name of package creator": "Suby Raman"
+}

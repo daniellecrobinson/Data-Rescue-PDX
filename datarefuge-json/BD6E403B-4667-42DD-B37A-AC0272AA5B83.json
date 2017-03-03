@@ -1,0 +1,14 @@
+{
+	"Date of capture": "Fri Feb 24 2017 14:05:24 GMT-0600 (CST)",
+	"File formats contained in package": "cfm",
+	"Individual source or seed URL": "https://cfpub.epa.gov/locator/index.cfm",
+	"Institution facilitating the data capture creation and packaging": “DataRescue TC“,
+	"Name of package creator": "jschalz",
+	"Name of resource": “EPA Staff Directory“,
+	"Type(s) of content in package": "Staff directory of the EPA. Includes Last, First name; Office location; and office phone number.",
+	"UUID": "BD6E403B-4667-42DD-B37A-AC0272AA5B83",
+	"recommended_approach": "Takes at least two letters to search. Returns up to 50 at a time, but can change URL parameter \"....tab=search\u0026display=\" to return more. Tried up to 500 successfully. Paginated with \"Next X Records\" link.",
+	"significance": "Staff directory of the EPA. Includes Last, First name; Office location; and office phone number.",
+	"title": "Staff Directory | About EPA | US EPA",
+	"url": "https://cfpub.epa.gov/locator/index.cfm"
+}

@@ -1,0 +1,13 @@
+{
+    "Individual source or seed URL": "http://www.ndbc.noaa.gov/ship_obs.php",
+    "UUID": "EB78B9A8-7CBB-48BE-82A2-946C47FA46C3",
+    "Institution facilitating the data capture creation and packaging": "Data Rescue A2",
+    "Date of capture": "2017-01-28",
+    "Federal agency data acquired from": "National Oceanic and Atmospheric Administration",
+    "Name of resource": "Ship Observations Report",
+    "File formats contained in package": ".txt",
+    "Type(s) of content in package": "datasets",
+    "Free text description of capture process": "Scrape webpages with a predictable URL",
+    "Name of package creator": "Cam Herringshaw"
+}
+
