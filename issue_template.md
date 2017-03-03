@@ -19,7 +19,7 @@ If you don't know a value, leave it blank. Check your JSON for errors with [JSON
   "id": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
   "doi":"publication or data doi",
   "isPartOf": "larger project?",
-  "tags": "formulation data",
+  "tags": "FDA",
   "organization": {
     "description": "",
     "title": "Department of Veterans Affairs",
