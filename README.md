@@ -85,7 +85,7 @@ We have a job for you!
 
 Here is the workflow you will be following:
 
-1. **Adopt** a dataset from the **WHERE IS THE NEW LIST, MAX**. 
+1. **Adopt** a dataset from the `datarefuge-json` folder that nobody else has claimed yet
 2. **Claim** your issue/dataset [in this spreadsheet](https://docs.google.com/spreadsheets/d/1Ojgw9-VFdwO2Qxrp9a6W6X8FFS4047uhvCf8Lw3Q6gU/edit#gid=1105874853).
 3. **Research** your dataset to discover or create standard JSON formatted metadata using a local text file.
 4. **Document** your dataset by [creating an issue in this repository](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues) and using our issue template to add the JSON metadata you found or created.
@@ -96,8 +96,8 @@ Here is the workflow you will be following:
 
 Here is a sample exercise to take you through the workflow
 
-1. Adopt a dataset from the **WHERE IS THE NEW LIST, MAX**. Search the google spreadsheet for your UUID and URL before claiming your dataset Visit the issues list and find one that nobody else has adopted yet.  
-**Example:** We're going to adopt this dataset: https://www.archivers.space/urls/D82A9773-81AF-4AF2-BF01-52CA2CF3BA22. We've updated the Google Spreadsheet and are ready to dive in.  
+1. Adopt a dataset from the `datarefuge-json` folder. Each file in this folder has a ID as it's name. This ID comes from the [DataRefuge.org](https://datarefuge.org) repository. Search the google spreadsheet for your ID and URL before claiming your dataset Visit the issues list and find one that nobody else has adopted yet.  
+**Example:** We're going to adopt this dataset: `datarefuge-jsons/D82A9773-81AF-4AF2-BF01-52CA2CF3BA22.json`. We've updated the Google Spreadsheet and are ready to dive in.  
 You might find after a few minutes that your dataset is incredibly confusing and hard to understand. This is normal. Here are some questions to ask during your research phase:
 
 2. Is the URL to a server with a bunch of datasets or one specific dataset?  
