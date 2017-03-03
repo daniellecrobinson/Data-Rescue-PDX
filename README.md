@@ -102,10 +102,10 @@ You might find after a few minutes that your dataset is incredibly confusing and
 
 2. Is the URL to a server with a bunch of datasets or one specific dataset?  
 **Example:** Our example issue linked to this site: http://www.nrel.gov/gis/data_solar.html. There seem to be dozens of datasets on many topics. The folders seem to be about different scientific research topics. 
-If you find a server hosting different scientific datasets in different folders or different links, that's fine. A high level JSON metadata file describing the page is useful, you don't need to list 3000 resources. Do what you can. Currently this page contains.
+If you find a server hosting different scientific datasets in different folders or different links, that's fine. A high level JSON metadata file describing the page is useful, you don't need to list 3000 resources. Do what you can. Do what humans are good at! Like figurign out whether something is science (does it have a publication with a DOI?) and figuring out whether people can use it (digging up the license information). 
 
 3. Is it clear what scientific purpose this dataset serves?  
-**Example:** From Archivers.Space - "These data provides monthly average and annual average daily total solar resource averaged over surface cells of 0.1 degrees in both latitude and longitude, or about 10 km in size. This data was developed using the State University of New York/Albany satellite radiation model. This model was developed by Dr. Richard Perez and collaborators at the National Renewable Energy Laboratory and other universities for the U.S. Department of Energy."  Probably worth saving!  
+**Example:**  http://www.nrel.gov/gis/data_solar.htm - "These data provides monthly average and annual average daily total solar resource averaged over surface cells of 0.1 degrees in both latitude and longitude, or about 10 km in size. This data was developed using the State University of New York/Albany satellite radiation model. This model was developed by Dr. Richard Perez and collaborators at the National Renewable Energy Laboratory and other universities for the U.S. Department of Energy."  Probably worth saving!  
 If you can't find out the purpose by clicking on the data, you should search the web for links to these files on Google to see how other people have used this data. See the [Google-Fu](#google-fu) section below.
 
 4. What organization funded it? Federally funded research?  
