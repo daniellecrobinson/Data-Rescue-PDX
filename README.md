@@ -37,7 +37,8 @@ A good JSON metadata file should address these questions using [standard field c
 - What types of data are in this dataset?
 - Are there publications associted with it?
 
-**Example** This is the kind of machnie-readable JSON file that humans are good at creating! Machines (people writing scrapers) will deal with the resources within each url. 
+**Example** This is the kind of machnie-readable JSON file that humans are good at creating! Machines (people writing scrapers) will deal with the resources within each url, but people can extract extra detail about resource ownership, missions or experiments associted with the dataset, licensing, and notes. 
+
 ```
 {
   "title": "VA National Formulary",
@@ -86,7 +87,7 @@ With appologies to EPA Enviornmental Justice Grant Programs and DataRefuge, this
 }
 ```
 
-Metadata is super important -- it essentially makes data discovery and resuse possible -- and if all you do today is create one metadata file for one dataset, or find metadata online and match it to a dataset that has been downloaded, or find a few datasets that need metadata, that is AWESOME and necessary! No contribution is too small!
+Machine readable metadata is super important -- it essentially makes data discovery and resuse possible -- and if all you do today is create one metadata file for one dataset, or find metadata online and match it to a dataset that has been downloaded, or find a few datasets that need metadata, that is AWESOME and necessary! No contribution is too small!
 
 ### Data Detectives: Discovering data and creating JSON metadata files
 
@@ -94,7 +95,7 @@ We have a job for you!
 
 Here is the workflow you will be following:
 
-1. **Adopt** a dataset from the "Done" bin at [Archivers.Space](https://www.archivers.space/urls?phase=done). 
+1. **Adopt** a dataset from the **WHERE IS THE NEW LIST, MAX**. 
 2. **Claim** your issue/dataset [in this spreadsheet](https://docs.google.com/spreadsheets/d/1Ojgw9-VFdwO2Qxrp9a6W6X8FFS4047uhvCf8Lw3Q6gU/edit#gid=1105874853).
 3. **Research** your dataset to discover or create standard JSON formatted metadata using a local text file.
 4. **Document** your dataset by [creating an issue in this repository](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues) and using our issue template to add the JSON metadata you found or created.
@@ -105,7 +106,7 @@ Here is the workflow you will be following:
 
 Here is a sample exercise to take you through the workflow
 
-1. Adopt a dataset from the "Done" bin at [Archivers.Space](https://www.archivers.space/urls?phase=done). If all datasets in "Done" are claimed, move on to "Bag".search the google spreadsheet for your UUID and URL before claiming your dataset Visit the issues list and find one that nobody else has adopted yet.  
+1. Adopt a dataset from the **WHERE IS THE NEW LIST, MAX**. Search the google spreadsheet for your UUID and URL before claiming your dataset Visit the issues list and find one that nobody else has adopted yet.  
 **Example:** We're going to adopt this dataset: https://www.archivers.space/urls/D82A9773-81AF-4AF2-BF01-52CA2CF3BA22. We've updated the Google Spreadsheet and are ready to dive in.  
 You might find after a few minutes that your dataset is incredibly confusing and hard to understand. This is normal. Here are some questions to ask during your research phase:
 
@@ -143,15 +144,41 @@ If you are reasonably sure that the metadata you've found is describing the data
 Take a look at this [JSON template](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/example.json). 
 
 - JSON organizes information about the data, the organization, and resources contained in the dataset. 
-- The example contains one a dataset with one resource, but multiple resources can be added when appropriate, see more examples in Max Ogden's [100 JSON files from Data.gov](https://github.com/jsonlines/guide/blob/master/datagov100.json)
+- The example contains one a dataset with multiple resources, see more examples in Max Ogden's [100 JSON files from Data.gov](https://github.com/jsonlines/guide/blob/master/datagov100.json)
  - More on metadata file in JSON formats, [more on metadata](https://project-open-data.cio.gov/v1.1/metadata-resources/) and [Schema](https://project-open-data.cio.gov/v1.1/schema/dataset.json)
-- *If you didn't find any metadata*, you are going to create metadata in a text editor for your dataset using the [JSON template](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/example.json) as a guide.
+- *If you didn't find any metadata*, you are going to create metadata in a text editor for your dataset using the [JSON template](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/example-2.json) as a guide. Don't get crazy with adding resources, focus on collecting info that humans are good at getting, like mission/experiment, licensing, and other details that may be hidden.
+
 - **Notes on JSON**:
  - ["Pretty print" it](http://jsonprettyprint.com/) if you found it formatted as a block or long line
  - It's fussy!
  - Mind placement of all the . } and ]
  - Check your file in [JSONLint](http://jsonlint.com/) to verify that you have no syntax errors when you're done!
-**Here is the JSON metadata for this file: TODO**
+
+```
+{
+  "title": "Solar Data, 10-kilometer",
+  "maintainer": "National Renewable Energy Lab (NREL)",
+  "maintainer_email": "GDS@nrel.gov",
+  "author": "GIS at NREL",
+  "author_email": "GDS@nrel.gov",
+  "notes": "This data provides monthly average and annual average daily total solar resource averaged over surface cells of 0.1 degrees in both latitude and longitude, or about 10 km in size. This data was developed using the State University of New York/Albany satellite radiation model. This model was developed by Dr. Richard Perez and collaborators at the National Renewable Energy Laboratory and other universities for the U.S. Department of Energy. See http://www.nrel.gov/disclaimer.html for reuse restrictions.",
+  "license_id": "restricted",
+  "landingPage": "http://www.nrel.gov/gis/data_solar.html",
+  "id": "D82A9773-81AF-4AF2-BF01-52CA2CF3BA22",
+  "doi":"10.2172/1007346",
+  "isPartOf": "Dynamic Maps, Geographic Information System (GIS) Data and Analysis Tools",
+  "tags": "GIS",
+  "organization": {
+    "description": "NREL's Geospatial Data Science Team analyzes renewable energy resources and many other data sources to determine which energy technologies are viable solutions across the globe and inputs the data into a geographic information system.",
+    "title": "National Renewable Energy Lab (NREL)",
+    "name": "NREL",
+    "is_organization": true,
+    "image_url": "",
+    "type": "organization",
+    "id": "NREL GIS"
+    }
+}
+```
 
 9. **Document** your dataset by [creating an issue in this repository](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues) and using our issue template to add the JSON metadata you found or created. Post your metadata to the issue tracker
 
