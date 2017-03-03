@@ -25,20 +25,45 @@ Your efforts will prevent these datasets from drifting into obscurity. A dataset
 
 #### What is metadata? 
 
-- Descriptive and/or machine readable information about a data set.
+- Descriptive, standardized, machine readable information about a dataset.
 - Makes the dataset useful, reusable, discoverable.
 - Good metadata is discoverable by search engines and uses open standards (today we focus on the JSON format, which is used by Data.gov).
 
-For example, a metadata file should address these questions:
+A good JSON metadata file should address these questions using [standard field codes](https://project-open-data.cio.gov/v1.1/metadata-resources/#field-mappings):
 
-- Who created the data set? 
-- When was it created? 
+- Who created the data set? What agency, people, missions, or experiments does it relate to?
 - Is it being maintained? 
-- From where was it downloaded? 
-- What types of data/How much data is in this dataset?
-- What is the origin of these data (owner, agency, instruments, creator, maintainer, contributors)? 
-- Is there a clearly documented chains of custody? 
-- Can you prove that your copy is the same data as the original?
+- From where was it downloaded? (Landing page)
+- What types of data are in this dataset?
+- Are there publications associted with it?
+
+**Example** This is the kind of JSON file that humans are good at creating! Machines (people writing scrapers) will deal with the resources within each url. 
+```
+{
+  "title": "VA National Formulary",
+  "maintainer": "Don Lees",
+  "maintainer_email": "Don.Lees@va.gov",
+  "author": null,
+  "author_email": null,
+  "notes": "The VA National Formulary is a listing of products (drugs and supplies) that must be available for prescription at all VA facilities, and cannot be made non-formulary by a Veteran Integrated Service Network (VISN) or individual medical center. Regarding chemical or biological entities that by law must be submitted to the United States (U.S.) Food and Drug Administration (FDA) for pre-marketing approval, only those entities that actually have been approved by FDA using New Drug Application (NDA), Abbreviated New Drug Application (ANDA), or biologics license, may be added to the VA National Formulary.",
+  "license_id": "cc-zero",
+  "landingPage": "URL for landing page goes here ",
+  "id": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
+  "doi":"publication or data doi",
+  "isPartOf": "larger project?",
+  "tags": "formulation data",
+  "organization": {
+    "description": "",
+    "title": "Department of Veterans Affairs",
+    "name": "va-gov",
+    "is_organization": true,
+    "image_url": "https://raw.githubusercontent.com/GSA/logo/master/va.png",
+    "type": "organization",
+    "id": "",
+    
+  },
+}
+```
 
 Metadata is super important -- it essentially makes data discovery and resuse possible -- and if all you do today is create one metadata file for one dataset, or find metadata online and match it to a dataset that has been downloaded, or find a few datasets that need metadata, that is AWESOME and necessary! No contribution is too small!
 
