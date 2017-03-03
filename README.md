@@ -65,25 +65,16 @@ A good JSON metadata file should address these questions using [standard field c
   },
 }
 ```
-With appologies to EPA Enviornmental Justice Grant Programs and DataRefuge, this is less-good metadata, machines can't easily read this.
+With appologies to EPA Enviornmental Justice Grant Programs, this is less-good metadata, machines can't easily read this.
   - Field codes are non-standard
   - Inconsistant capitalization, use of (), and _ 
   - Not properly JSON formatted
   - Multiple fields contain long strings of text (that belongs in notes)
 ```
 {
-	"Date of capture": "Sat Feb 18 2017 14:52:20 GMT-0500 (EST)",
-	"File formats contained in package": "PDF",
-	"Individual source or seed URL": "https://www.epa.gov/environmentaljustice/environmental-justice-funding-communities",
-	"Institution facilitating the data capture creation and packaging": "",
-	"Name of package creator": "jonganc",
-	"Name of resource": "",
-	"Type(s) of content in package": "HTML page with map representing locations of EPA Environmental Justice Grant Programs. PDFs with more detail on EPA’s Environmental Justice Collaborative Problem-Solving Cooperative Agreement Program and the EPA’s Small Grants Projects.",
+	"Type(s) of datasets at resource url": "HTML landing page with map representing locations of EPA Environmental Justice Grant Programs. PDFs with more detail on EPA’s Environmental Justice Collaborative Problem-Solving Cooperative Agreement Program and the EPA’s Small Grants Projects.",
 	"UUID": "82326781-CFFA-4007-AB66-CBF27C7993E3",
-	"recommended_approach": "",
-	"significance": "The primary purpose of EPA’s environmental justice grant programs are to support communities as they develop and implement solutions that significantly address environmental and/or public health concerns at the local level"
-	"title": "Environmental Justice Funding for Communities",
-	"url": "https://www.epa.gov/environmentaljustice/environmental-justice-funding-communities"
+	"recommended_approach": ""
 }
 ```
 
