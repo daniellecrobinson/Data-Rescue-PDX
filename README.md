@@ -37,7 +37,7 @@ A good JSON metadata file should address these questions using [standard field c
 - What types of data are in this dataset?
 - Are there publications associted with it?
 
-**Example** This is the kind of machnie-readable JSON file that humans are good at creating! Machines (people writing scrapers) will deal with the resources within each url, but people can extract extra detail about resource ownership, missions or experiments associted with the dataset, licensing, and notes. 
+**Example** This is the kind of machine-readable JSON file that humans are good at creating! Machines (people writing scrapers) will deal with the resources within each url, but people can extract extra detail about resource ownership, missions or experiments associted with the dataset, licensing, and notes. 
 
 ```
 {
@@ -67,7 +67,7 @@ A good JSON metadata file should address these questions using [standard field c
 ```
 With appologies to EPA Enviornmental Justice Grant Programs and DataRefuge, this is less-good metadata, machines can't easily read this.
   - Field codes are non-standard
-  - Inconsistant capitalization, use of () and _ 
+  - Inconsistant capitalization, use of (), and _ 
   - Not properly JSON formatted
   - Multiple fields contain long strings of text (that belongs in notes)
 ```
@@ -144,13 +144,13 @@ If you are reasonably sure that the metadata you've found is describing the data
 Take a look at this [JSON template](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/example.json). 
 
 - JSON organizes information about the data, the organization, and resources contained in the dataset. 
-- The example contains one a dataset with multiple resources, see more examples in Max Ogden's [100 JSON files from Data.gov](https://github.com/jsonlines/guide/blob/master/datagov100.json)
+- The example contains one a dataset with multiple resources, see more examples in Max Ogden's [100 JSON files from Data.gov](https://github.com/jsonlines/guide/blob/master/datagov100.json) - but don't worry about the resoures, scrapers will get resources. Huamns are better at finding extra details like licenses.
  - More on metadata file in JSON formats, [more on metadata](https://project-open-data.cio.gov/v1.1/metadata-resources/) and [Schema](https://project-open-data.cio.gov/v1.1/schema/dataset.json)
 - *If you didn't find any metadata*, you are going to create metadata in a text editor for your dataset using the [JSON template](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/example-2.json) as a guide. Don't get crazy with adding resources, focus on collecting info that humans are good at getting, like mission/experiment, licensing, and other details that may be hidden.
 
 - **Notes on JSON**:
  - ["Pretty print" it](http://jsonprettyprint.com/) if you found it formatted as a block or long line
- - It's fussy!
+ - It's fussy! I had to check my JSON 3 times before I found an errant ", was throwing it off
  - Mind placement of all the . } and ]
  - Check your file in [JSONLint](http://jsonlint.com/) to verify that you have no syntax errors when you're done!
 
