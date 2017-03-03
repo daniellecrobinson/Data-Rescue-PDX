@@ -52,7 +52,7 @@ A good JSON metadata file should address these questions using [standard field c
   "id": "ff9ae098-eccc-41d8-bfcd-5e8ed047db05",
   "doi":"publication or data doi",
   "isPartOf": "larger project?",
-  "tags": "formulation data",
+  "keyword": "formulation data",
   "organization": {
     "description": "",
     "title": "Department of Veterans Affairs",
@@ -60,9 +60,8 @@ A good JSON metadata file should address these questions using [standard field c
     "is_organization": true,
     "image_url": "https://raw.githubusercontent.com/GSA/logo/master/va.png",
     "type": "organization",
-    "id": "",
-    
-  },
+    "id": ""
+  }
 }
 ```
 With appologies to EPA Enviornmental Justice Grant Programs, this is less-good metadata, machines can't easily read this.
@@ -161,7 +160,7 @@ Take a look at this [JSON template](https://github.com/daniellecrobinson/Data-Re
   "id": "D82A9773-81AF-4AF2-BF01-52CA2CF3BA22",
   "doi":"10.2172/1007346",
   "isPartOf": "Dynamic Maps, Geographic Information System (GIS) Data and Analysis Tools",
-  "tags": "GIS",
+  "keyword": "GIS",
   "organization": {
     "description": "NREL's Geospatial Data Science Team analyzes renewable energy resources and many other data sources to determine which energy technologies are viable solutions across the globe and inputs the data into a geographic information system.",
     "title": "National Renewable Energy Lab (NREL)",
