@@ -2,6 +2,8 @@
 
 The goal of this guide is to help decide when a web scraper is necessary, and then to show how to build a scraper.
 
+As part of DataRefuge.org, many datasets have been nominated for backup, and an initial backup has been made. However many of these are one time captures. Sometimes a scraper would be useful to monitor/discover new changes to data in the future automatically.
+
 ### Picking a dataset
 
 Starting with [datasets that have been published](https://github.com/daniellecrobinson/Data-Rescue-PDX/tree/master/datarefuge-json) to DataRefuge.org, find one suitable for writing a scraper (you may need to try a couple)
