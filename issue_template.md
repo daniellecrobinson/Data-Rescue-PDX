@@ -11,7 +11,7 @@ If you don't know a value, leave it blank. Check your JSON for errors with [JSON
   "title": "VA National Formulary",
   "maintainer": "Don Lees",
   "maintainer_email": "Don.Lees@va.gov",
-  "author":["Robert Adler", "Xiquan Dong"],
+  "author": ["Robert Adler", "Xiquan Dong"],
   "author_email": null,
   "notes": "The VA National Formulary is a listing of products (drugs and supplies) that must be available for prescription at all VA facilities, and cannot be made non-formulary by a Veteran Integrated Service Network (VISN) or individual medical center. Regarding chemical or biological entities that by law must be submitted to the United States (U.S.) Food and Drug Administration (FDA) for pre-marketing approval, only those entities that actually have been approved by FDA using New Drug Application (NDA), Abbreviated New Drug Application (ANDA), or biologics license, may be added to the VA National Formulary.",
   "license_id": "cc-zero",
