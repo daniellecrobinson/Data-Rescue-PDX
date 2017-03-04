@@ -129,6 +129,7 @@ Sometimes this is in the URL of the server, or you might find it through googlin
 
 5. Is raw data at the URL or is it a landing page where you need to click through?   
 *Raw data* is things like .CSV, .ZIP, .PDF or weird esoteric scientific data forms, usually displayed in a folder structure, and prompts you to Save As a download on your computer when you click on it. Raw data is sometimes hard to find.  
+
 A *landing page* is a HTML website that usually describes the research project and sometimes links to the raw data. If you find a landing page, try to find out where all the links to the raw data on the landing page(s) are.  
 **Example:** This is a landing page that links out to multiple datasets.  
 Since we're focusing on creating dataset metadata, we want to primarily find and describe the downloadable raw data, not only the project website or landing page (though the websites are useful for learning some about the dataset such as which agency created it etc.).
@@ -208,6 +209,8 @@ Google things! make sure it's in double "" so it's an exact match
  - "www1.ncdc.noaa.gov/pub/data/annualreports/" - we found only a UK Met office PDF citing our PDFs!
 
 **Extra Credit** 
+
+[JSON lines tutorial](https://github.com/jsonlines/guide) learn command line tools to filter JSON files and figure out what agecies use to fields like "name"
 
 More on metadata file in JSON formats, [more on metadata](https://project-open-data.cio.gov/v1.1/metadata-resources/) and [Schema](https://project-open-data.cio.gov/v1.1/schema/dataset.json)
     
