@@ -1,5 +1,7 @@
 # [Data-Rescue-PDX](http://calagator.org/events/1250471401)
 
+Coming on 3/417: https://www.eventbrite.com/e/open-data-day-portland-tickets-31370043645
+
 Volunteers! Welcome and thank you for spending your time with us.
 
 Tools reguired: A laptop, curiosity, and a GitHub account. If you have never used GitHub - welcome! We will talk beginners through setting up GitHub accounts and the use of the platform. See our [Contributing Guide](https://github.com/daniellecrobinson/Data-Rescue-PDX/blob/master/CONTRIBUTING.md) for more information.
@@ -9,6 +11,17 @@ This event is a volunteer effort to contribute to data back up efforts. By atten
 To chat after this event, join the Science Hack PDX Slack: https://sciencepdxslackin.herokuapp.com/
 
 ### Citizen Science Metadata Curation Workshop!
+### The basics: We have a job for you!
+
+Here is the workflow you will be following:
+
+1. **Adopt** a dataset from the `datarefuge-json` in this GitHub repo folder that nobody else has claimed yet
+2. **Claim** your issue/dataset [in this spreadsheet](https://docs.google.com/spreadsheets/d/1Ojgw9-VFdwO2Qxrp9a6W6X8FFS4047uhvCf8Lw3Q6gU/edit#gid=1105874853).
+3. **Research** your dataset to improve standard JSON formatted metadata using a local text file.
+4. **Document** your dataset by [creating an issue in this repository](https://github.com/daniellecrobinson/Data-Rescue-PDX/issues) and using our issue template to add the JSON metadata you improved.
+5. **Verify** metadata from two other contributors. 
+6. **Repeat!**
+
 
 ### Background
 There is curently no centralized storage and access system for scientific research datasets. Scientific data is scattered across the internet, where it may be deposited on hard to find servers without meaningful documentation to explain what the data is, who created it, the context in which it was created, and how it should be discovered and used by other researchers.
