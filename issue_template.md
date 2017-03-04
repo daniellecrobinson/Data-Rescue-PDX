@@ -27,8 +27,8 @@ If you don't know a value, leave it blank. Check your JSON for errors with [JSON
     "is_organization": true,
     "image_url": "https://raw.githubusercontent.com/GSA/logo/master/va.png",
     "type": "organization",
-    "id": "",
+    "id": ""
     
-  },
+  }
 }
 ```
