@@ -1,6 +1,6 @@
 # [Data-Rescue-PDX](http://calagator.org/events/1250471401)
 
-Coming on 3/417: https://www.eventbrite.com/e/open-data-day-portland-tickets-31370043645
+Coming on Saturday 3/4/17? Register and get details of the rooms here: https://www.eventbrite.com/e/open-data-day-portland-tickets-31370043645
 
 Volunteers! Welcome and thank you for spending your time with us.
 
